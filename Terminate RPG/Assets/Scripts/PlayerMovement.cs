@@ -7,10 +7,12 @@ public class PlayerMovement : MonoBehaviour
     public float speed;
     private Rigidbody2D rigidbody;
     private Vector3 directionChange;
+    private Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
+        animator = GetComponent<Animator>();
         rigidbody = GetComponent<Rigidbody2D>();    
     }
 
@@ -21,9 +23,16 @@ public class PlayerMovement : MonoBehaviour
         directionChange.x = Input.GetAxisRaw("Horizontal");
         directionChange.y = Input.GetAxisRaw("Vertical");
 
-        if (directionChange != Vector3.zero) 
+        if (directionChange != Vector3.zero)
         {
             CharacterMovement();
+            animator.SetFloat("moveX", directionChange.x);
+            animator.SetFloat("moveY", directionChange.y);
+            animator.SetBool("moving", true);
+        }
+        else 
+        {
+            animator.SetBool("moving", false);
         }
     }
 
