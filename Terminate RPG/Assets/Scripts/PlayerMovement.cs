@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rigidbody;
     private Vector3 directionChange;
     private Animator animator;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -20,9 +21,9 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         directionChange = Vector3.zero;
-        directionChange.x = Input.GetAxisRaw("Horizontal");
+        directionChange.x = Input.GetAxisRaw("Horizontal"); //=1.0 GetAxis("Horizontal") = 1.32
         directionChange.y = Input.GetAxisRaw("Vertical");
-
+        Debug.Log(directionChange);
         if (directionChange != Vector3.zero)
         {
             CharacterMovement();
