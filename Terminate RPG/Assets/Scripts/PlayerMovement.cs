@@ -2,8 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum PlayerState 
+{
+    walk,
+    attack, 
+    interact
+}
+
 public class PlayerMovement : MonoBehaviour
 {
+    public PlayerState currentstate;
     public float speed;
     private Rigidbody2D rigidbody;
     private Vector3 directionChange;
@@ -21,9 +29,21 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         directionChange = Vector3.zero;
-        directionChange.x = Input.GetAxisRaw("Horizontal"); //=1.0 GetAxis("Horizontal") = 1.32
+        directionChange.x = Input.GetAxisRaw("Horizontal"); 
         directionChange.y = Input.GetAxisRaw("Vertical");
-        Debug.Log(directionChange);
+        
+        if (Input.GetButtonDown("attack") && currentstate != PlayerState.attack) 
+        {
+            StartCoroutine(AttackCo());
+        }
+        else if (currentstate == PlayerState.walk) 
+        {
+            UpdateAnimationMovement();
+        }
+        
+    }
+    void UpdateAnimationMovement() 
+    {
         if (directionChange != Vector3.zero)
         {
             CharacterMovement();
@@ -31,10 +51,21 @@ public class PlayerMovement : MonoBehaviour
             animator.SetFloat("moveY", directionChange.y);
             animator.SetBool("moving", true);
         }
-        else 
+        else
         {
             animator.SetBool("moving", false);
         }
+
+    }
+
+    private IEnumerator AttackCo() 
+    {
+        animator.SetBool("Attacking", true);
+        currentstate = PlayerState.attack;
+        yield return null;
+        animator.SetBool("Attacking", false);
+        yield return new WaitForSeconds(.3f);
+        currentstate = PlayerState.walk;
     }
 
     // Movement Calculation of a Character
