@@ -432,7 +432,7 @@ MonoBehaviour:
   dialogText: {fileID: 1739870070}
   dialog: Hey! Where are you going? Mom said that it is dangerous outside, said that
     there are a lot of nasty creatures...But I want to go and see!
-  dialogActive: 0
+  playerInRange: 0
 --- !u!4 &577072495 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6373308668512512139, guid: 9e015f926891c9947a553b6fb8ddd1f0, type: 3}
