@@ -21,8 +21,11 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        currentstate = PlayerState.walk;
         animator = GetComponent<Animator>();
-        rigidbody = GetComponent<Rigidbody2D>();    
+        rigidbody = GetComponent<Rigidbody2D>();
+        animator.SetFloat("moveX", 0);
+        animator.SetFloat("moveY", -1);
     }
 
     // Update is called once per frame
@@ -71,6 +74,7 @@ public class PlayerMovement : MonoBehaviour
     // Movement Calculation of a Character
     void CharacterMovement() 
     {
+        directionChange.Normalize();
         rigidbody.MovePosition(
                 transform.position + directionChange * speed * Time.deltaTime
              );
