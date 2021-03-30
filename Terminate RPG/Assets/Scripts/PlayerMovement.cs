@@ -16,16 +16,19 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rigidbody;
     private Vector3 directionChange;
     private Animator animator;
+    public VectorValue startingPosition;
     
 
     // Start is called before the first frame update
     void Start()
     {
+
         currentstate = PlayerState.walk;
         animator = GetComponent<Animator>();
         rigidbody = GetComponent<Rigidbody2D>();
         animator.SetFloat("moveX", 0);
         animator.SetFloat("moveY", -1);
+        transform.position = startingPosition.initialValue;
     }
 
     // Update is called once per frame
