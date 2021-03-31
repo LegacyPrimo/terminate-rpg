@@ -225,7 +225,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -2401198494797527602, guid: 6931f65a7a141da4fa2bbdb95555af77, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -2401198494797527602, guid: 6931f65a7a141da4fa2bbdb95555af77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -283,15 +283,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1106543280328990907, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1106543280328990907, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.6
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1106543280328990907, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -29.08
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 1106543280328990907, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: m_LocalPosition.z
@@ -428,6 +428,14 @@ PrefabInstance:
       propertyPath: fadeOutPanel
       value: 
       objectReference: {fileID: 5757140694274477884, guid: 366990805ae512648961705ce2bb94df, type: 3}
+    - target: {fileID: 6455451073394438825, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
+      propertyPath: playerPosition.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6455451073394438825, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
+      propertyPath: playerPosition.y
+      value: 17
+      objectReference: {fileID: 0}
     - target: {fileID: 6455451073394438825, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
       propertyPath: playerSetPosition
       value: 

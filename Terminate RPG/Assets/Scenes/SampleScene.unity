@@ -640,7 +640,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transformTarget: {fileID: 2108648180}
   smoothTransition: 0.1
-  maxPosition: {x: 16.3, y: -5.2}
+  maxPosition: {x: 16.3, y: 19.5}
   minPosition: {x: 9, y: -20}
 --- !u!20 &519420031
 Camera:
@@ -693,7 +693,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.25, y: -12.13, z: -4.5}
+  m_LocalPosition: {x: 13.7, y: -12.7, z: -4.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1020,9 +1020,29 @@ PrefabInstance:
       value: SceneTransitionToCave
       objectReference: {fileID: 0}
     - target: {fileID: 6455451073394438825, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
+      propertyPath: fadeInPanel
+      value: 
+      objectReference: {fileID: 5838501531399625263, guid: 3f7412021c2207043b1782454a101b08, type: 3}
+    - target: {fileID: 6455451073394438825, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
       propertyPath: sceneToLoad
       value: CaveStage
       objectReference: {fileID: 0}
+    - target: {fileID: 6455451073394438825, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
+      propertyPath: fadeOutPanel
+      value: 
+      objectReference: {fileID: 5757140694274477884, guid: 366990805ae512648961705ce2bb94df, type: 3}
+    - target: {fileID: 6455451073394438825, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
+      propertyPath: playerPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6455451073394438825, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
+      propertyPath: playerPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6455451073394438825, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
+      propertyPath: playerSetPosition
+      value: 
+      objectReference: {fileID: 11400000, guid: 60f8e31107112a24180b6b48755310e8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
 --- !u!1001 &856798111
@@ -2447,11 +2467,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1106543280328990907, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.56
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1106543280328990907, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -13.13
+      value: -13.4
       objectReference: {fileID: 0}
     - target: {fileID: 1106543280328990907, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: m_LocalPosition.z
