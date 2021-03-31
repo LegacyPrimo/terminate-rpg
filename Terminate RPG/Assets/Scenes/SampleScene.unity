@@ -956,6 +956,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -1811609754319973375, guid: 3119da95e7120e94eb0c239a6bd056ae, type: 3}
   m_PrefabInstance: {fileID: 1913137824}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &772605353
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4990689053495757497, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990689053495757497, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990689053495757497, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990689053495757497, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -306.92554
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990689053495757497, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990689053495757497, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990689053495757497, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990689053495757497, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990689053495757497, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990689053495757497, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990689053495757497, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990689053495757502, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
+      propertyPath: m_Size.x
+      value: 4.0146875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990689053495757502, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.05737257
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990689053495757503, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
+      propertyPath: m_Name
+      value: SceneTransitionToCave
+      objectReference: {fileID: 0}
+    - target: {fileID: 6455451073394438825, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
+      propertyPath: sceneToLoad
+      value: CaveStage
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
 --- !u!1001 &856798111
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2416,6 +2485,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1106543280328990908, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
+      propertyPath: m_SortingOrder
+      value: 99
+      objectReference: {fileID: 0}
     - target: {fileID: 1106543280328990911, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: m_Name
       value: Player
@@ -2571,8 +2644,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4990689053495757503, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 4990689053495757503, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
       propertyPath: m_Name
-      value: SceneTransition
+      value: SceneTransitionToHouse
       objectReference: {fileID: 0}
     - target: {fileID: 6455451073394438825, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
       propertyPath: fadeInPanel

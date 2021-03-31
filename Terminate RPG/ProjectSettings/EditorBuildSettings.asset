@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PlayerHouse.unity
     guid: cc65d5bddd636d644bdba254f9548c78
+  - enabled: 1
+    path: Assets/Scenes/CaveStage.unity
+    guid: bd1ed8acb3026f74f8a5cd9fa6e5de83
   m_configObjects: {}

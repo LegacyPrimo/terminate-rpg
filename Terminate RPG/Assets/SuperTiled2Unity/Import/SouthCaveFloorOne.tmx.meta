@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6af57464a78074048829b9db80133f33
+guid: 6931f65a7a141da4fa2bbdb95555af77
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -12,7 +12,6 @@ ScriptedImporter:
   errors: []
   warnings:
   - Pixels Per Unit mismatch between map (100) and tileset 'CaveTileSet.tsx' (16)
-  - Pixels Per Unit mismatch between map (100) and tileset 'WorldSet.tsx' (16)
   missingSortingLayers: []
   missingLayers: []
   missingTags: []
