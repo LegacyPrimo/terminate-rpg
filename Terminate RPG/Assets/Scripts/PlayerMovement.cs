@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 directionChange;
     private Animator animator;
     public VectorValue startingPosition;
+    public FloatValue currentHealth;
     
 
     // Start is called before the first frame update
