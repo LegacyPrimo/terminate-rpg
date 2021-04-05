@@ -8,10 +8,14 @@ public class SlimeEnemy : EnemyScript
     public float moveRadius;
     public float attackRadius;
     public Transform initialPosition;
+    private Animator animator;
+    private Rigidbody2D rigidbody2D;
 
     // Start is called before the first frame update
     void Start()
     {
+        rigidbody2D = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         enemyTarget = GameObject.FindWithTag("Player").transform;
 
     }
@@ -24,10 +28,11 @@ public class SlimeEnemy : EnemyScript
 
     void CheckDistance() 
     {
-        if (Vector2.Distance(enemyTarget.position, transform.position) <= moveRadius 
-            && Vector2.Distance(enemyTarget.position, transform.position) > attackRadius) 
+        if (Vector3.Distance(enemyTarget.position, transform.position) <= moveRadius 
+            && Vector3.Distance(enemyTarget.position, transform.position) > attackRadius) 
         {
-            transform.position = Vector2.MoveTowards(transform.position, enemyTarget.position, enemySpeed * Time.deltaTime);
+            Vector3 temporary = Vector3.MoveTowards(transform.position, enemyTarget.position, enemySpeed * Time.deltaTime);
+            rigidbody2D.MovePosition(temporary);
         }
     }
 }
