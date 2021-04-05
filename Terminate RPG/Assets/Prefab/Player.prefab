@@ -162,6 +162,7 @@ GameObject:
   - component: {fileID: 1106543280328990910}
   - component: {fileID: 1106543280328990906}
   - component: {fileID: 1106543280328990905}
+  - component: {fileID: 596381326}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -226,8 +227,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7152930139536384079, guid: eedd26ec2bd0df04aa482cdd07a326e7, type: 3}
+  m_SortingOrder: 99
+  m_Sprite: {fileID: 5001785872520322436, guid: 5a1625845445a0c4497a5ffe9c597746, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -246,7 +247,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1106543280328990911}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -272,18 +273,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0021734238, y: -0.56955445}
+  m_Offset: {x: -0.019030571, y: -0.7886586}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 2}
+    oldSize: {x: 0.9375, y: 1.75}
     newSize: {x: 1, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.37840343, y: 0.121929884}
+  m_Size: {x: 0.82603455, y: 0.22087955}
   m_EdgeRadius: 0
 --- !u!114 &1106543280328990906
 MonoBehaviour:
@@ -300,6 +301,7 @@ MonoBehaviour:
   currentstate: 0
   speed: 12
   startingPosition: {fileID: 11400000, guid: 60f8e31107112a24180b6b48755310e8, type: 2}
+  currentHealth: {fileID: 0}
 --- !u!95 &1106543280328990905
 Animator:
   serializedVersion: 3
@@ -319,6 +321,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &596381326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106543280328990911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93991593e3ac7894eb37bdbce11164d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pushForce: 5
 --- !u!1 &1106543280518974496
 GameObject:
   m_ObjectHideFlags: 0

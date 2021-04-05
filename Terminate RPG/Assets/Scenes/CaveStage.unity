@@ -281,6 +281,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 596381326, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
+      propertyPath: knockTime
+      value: 0.4
+      objectReference: {fileID: 0}
     - target: {fileID: 1106543280328990907, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -324,10 +328,6 @@ PrefabInstance:
     - target: {fileID: 1106543280328990907, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1106543280328990908, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
-      propertyPath: m_SortingOrder
-      value: 99
       objectReference: {fileID: 0}
     - target: {fileID: 1106543280328990911, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: m_Name
@@ -849,7 +849,7 @@ GameObject:
   - component: {fileID: 1772006866}
   m_Layer: 0
   m_Name: SlimeEnemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -919,7 +919,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &1772006864
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -957,8 +957,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -2098533075
+  m_SortingLayer: 3
   m_SortingOrder: 99
   m_Sprite: {fileID: -3670496716052824806, guid: ca016cc3c0f93cd4c9991f7aa7c32932, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
