@@ -281,10 +281,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 596381326, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
-      propertyPath: knockTime
-      value: 0.4
-      objectReference: {fileID: 0}
     - target: {fileID: 1106543280328990907, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1000,7 +996,7 @@ MonoBehaviour:
   enemyName: Slime
   enemyHealth: 3
   baseAttackDamage: 1
-  enemySpeed: 0.5
+  enemySpeed: 2
   enemyTarget: {fileID: 0}
   moveRadius: 4
   attackRadius: 1
