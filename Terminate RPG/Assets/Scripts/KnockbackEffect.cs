@@ -14,7 +14,7 @@ public class KnockbackEffect : MonoBehaviour
             Rigidbody2D enemyCharacter = collision.GetComponent<Rigidbody2D>();
             if (enemyCharacter != null) 
             {
-                
+                enemyCharacter.GetComponent<EnemyScript>().currentState = EnemyState.stagger;
                 Vector2 positionGap = enemyCharacter.transform.position - transform.position;
                 positionGap = positionGap.normalized * pushForce;
                 enemyCharacter.AddForce(positionGap, ForceMode2D.Impulse);
@@ -29,7 +29,7 @@ public class KnockbackEffect : MonoBehaviour
         {
             yield return new WaitForSeconds(knockTime);
             enemyEffect.velocity = Vector2.zero;
-            enemyEffect.bodyType = RigidbodyType2D.Kinematic;
+            enemyEffect.GetComponent<EnemyScript>().currentState = EnemyState.idle;
         }
     }
 }

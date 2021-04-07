@@ -14,6 +14,7 @@ public class SlimeEnemy : EnemyScript
     // Start is called before the first frame update
     void Start()
     {
+        currentState = EnemyState.idle;
         rigidbody2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         enemyTarget = GameObject.FindWithTag("Player").transform;
@@ -21,7 +22,7 @@ public class SlimeEnemy : EnemyScript
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         CheckDistance();
     }
@@ -31,8 +32,21 @@ public class SlimeEnemy : EnemyScript
         if (Vector3.Distance(enemyTarget.position, transform.position) <= moveRadius 
             && Vector3.Distance(enemyTarget.position, transform.position) > attackRadius) 
         {
-            Vector3 temporary = Vector3.MoveTowards(transform.position, enemyTarget.position, enemySpeed * Time.deltaTime);
-            rigidbody2D.MovePosition(temporary);
+            if (currentState == EnemyState.idle || currentState == EnemyState.walk && currentState != EnemyState.stagger) 
+            {
+                Vector3 temporary = Vector3.MoveTowards(transform.position, enemyTarget.position, enemySpeed * Time.deltaTime);
+                rigidbody2D.MovePosition(temporary);
+                ChangeState(EnemyState.walk);
+            }
+          
+        }
+    }
+
+    private void ChangeState(EnemyState newState) 
+    {
+        if (currentState != newState) 
+        {
+            currentState = newState;
         }
     }
 }
