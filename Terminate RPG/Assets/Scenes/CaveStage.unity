@@ -285,6 +285,10 @@ PrefabInstance:
       propertyPath: pushForce
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1101147798353272091, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
+      propertyPath: damageTaken
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1106543279541914950, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: m_TagString
       value: Player
@@ -353,13 +357,25 @@ PrefabInstance:
       propertyPath: pushForce
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3094286991657138655, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
+      propertyPath: damageTaken
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4318395256219425122, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: pushForce
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4318395256219425122, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
+      propertyPath: damageTaken
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7891949889242167687, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: pushForce
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7891949889242167687, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
+      propertyPath: damageTaken
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
@@ -1028,6 +1044,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
+  maxHealth: {fileID: 11400000, guid: 4bcab87b4f9613f42b2f5f7836c81c59, type: 2}
   enemyName: Slime
   enemyHealth: 3
   baseAttackDamage: 1
@@ -1050,6 +1067,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pushForce: 4
   knockTime: 0.2
+  damageTaken: 0
 --- !u!61 &1772006868
 BoxCollider2D:
   m_ObjectHideFlags: 0

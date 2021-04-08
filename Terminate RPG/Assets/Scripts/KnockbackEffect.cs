@@ -6,6 +6,7 @@ public class KnockbackEffect : MonoBehaviour
 {
     public float pushForce;
     public float knockTime;
+    public float damageTaken;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -25,10 +26,11 @@ public class KnockbackEffect : MonoBehaviour
                 positionGap = positionGap.normalized * pushForce;
                 hitObject.AddForce(positionGap, ForceMode2D.Impulse);
 
-                if (collision.gameObject.CompareTag("Enemy")) 
+                if (collision.gameObject.CompareTag("Enemy") && collision.isTrigger) 
                 {
                     hitObject.GetComponent<EnemyScript>().currentState = EnemyState.stagger;
-                    collision.GetComponent<EnemyScript>().KnockbackEffect(hitObject, knockTime);
+                    collision.GetComponent<EnemyScript>().KnockbackEffect(hitObject, knockTime, damageTaken);
+
                 }
 
                 if (collision.gameObject.CompareTag("Player")) 
