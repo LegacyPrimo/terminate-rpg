@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1106543279541914949}
   - component: {fileID: 1106543279541914948}
-  - component: {fileID: 1106543279541914947}
+  - component: {fileID: 1101147798353272091}
   m_Layer: 0
   m_Name: RightHitBox
   m_TagString: Untagged
@@ -62,7 +62,7 @@ PolygonCollider2D:
       - {x: 0.06536919, y: -0.59129894}
       - {x: 0.5152117, y: -0.6880624}
       - {x: 0.80591106, y: 0.1638717}
---- !u!114 &1106543279541914947
+--- !u!114 &1101147798353272091
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -71,9 +71,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1106543279541914950}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 863ec06b67d54024cb22b787d35737ff, type: 3}
+  m_Script: {fileID: 11500000, guid: 93991593e3ac7894eb37bdbce11164d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pushForce: 5
+  knockTime: 0.4
 --- !u!1 &1106543279548427990
 GameObject:
   m_ObjectHideFlags: 0
@@ -84,7 +86,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1106543279548427989}
   - component: {fileID: 1106543279548427988}
-  - component: {fileID: 1106543279548427987}
+  - component: {fileID: 7891949889242167687}
   m_Layer: 0
   m_Name: LeftHitBox
   m_TagString: Untagged
@@ -136,7 +138,7 @@ PolygonCollider2D:
       - {x: -0.5152125, y: -0.76063526}
       - {x: -0.13794267, y: -0.4945352}
       - {x: -0.25848866, y: -0.029655516}
---- !u!114 &1106543279548427987
+--- !u!114 &7891949889242167687
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -145,9 +147,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1106543279548427990}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 863ec06b67d54024cb22b787d35737ff, type: 3}
+  m_Script: {fileID: 11500000, guid: 93991593e3ac7894eb37bdbce11164d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pushForce: 5
+  knockTime: 0.4
 --- !u!1 &1106543280328990911
 GameObject:
   m_ObjectHideFlags: 0
@@ -162,7 +166,7 @@ GameObject:
   - component: {fileID: 1106543280328990910}
   - component: {fileID: 1106543280328990906}
   - component: {fileID: 1106543280328990905}
-  - component: {fileID: 596381326}
+  - component: {fileID: 3221667560258996677}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -321,20 +325,32 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &596381326
-MonoBehaviour:
+--- !u!61 &3221667560258996677
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1106543280328990911}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93991593e3ac7894eb37bdbce11164d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pushForce: 5
-  knockTime: 0.4
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.031508446, y: -0.3974861}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.9375, y: 1.75}
+    newSize: {x: 1, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.6515045, y: 0.9550278}
+  m_EdgeRadius: 0
 --- !u!1 &1106543280518974496
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,7 +361,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1106543280518974527}
   - component: {fileID: 1106543280518974526}
-  - component: {fileID: 1106543280518974525}
+  - component: {fileID: 3094286991657138655}
   m_Layer: 0
   m_Name: UpHitBox
   m_TagString: Untagged
@@ -399,7 +415,7 @@ PolygonCollider2D:
       - {x: -0.32168525, y: 0.42471898}
       - {x: 0.05558455, y: 0.4005282}
       - {x: 0.5156212, y: -0.5860463}
---- !u!114 &1106543280518974525
+--- !u!114 &3094286991657138655
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -408,9 +424,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1106543280518974496}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 863ec06b67d54024cb22b787d35737ff, type: 3}
+  m_Script: {fileID: 11500000, guid: 93991593e3ac7894eb37bdbce11164d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pushForce: 5
+  knockTime: 0.4
 --- !u!1 &1106543281123742575
 GameObject:
   m_ObjectHideFlags: 0
@@ -421,7 +439,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1106543281123742574}
   - component: {fileID: 1106543281123742573}
-  - component: {fileID: 1106543281123742572}
+  - component: {fileID: 4318395256219425122}
   m_Layer: 0
   m_Name: DownHitBox
   m_TagString: Untagged
@@ -473,7 +491,7 @@ PolygonCollider2D:
       - {x: -0.49102157, y: -0.47034442}
       - {x: 0.7329308, y: -0.85739875}
       - {x: 0.37047386, y: -0.24737364}
---- !u!114 &1106543281123742572
+--- !u!114 &4318395256219425122
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -482,6 +500,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 1106543281123742575}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 863ec06b67d54024cb22b787d35737ff, type: 3}
+  m_Script: {fileID: 11500000, guid: 93991593e3ac7894eb37bdbce11164d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pushForce: 5
+  knockTime: 0.4

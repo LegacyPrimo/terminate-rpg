@@ -9,27 +9,35 @@ public class KnockbackEffect : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy")) 
-        {
-            Rigidbody2D enemyCharacter = collision.GetComponent<Rigidbody2D>();
-            if (enemyCharacter != null) 
-            {
-                enemyCharacter.GetComponent<EnemyScript>().currentState = EnemyState.stagger;
-                Vector2 positionGap = enemyCharacter.transform.position - transform.position;
-                positionGap = positionGap.normalized * pushForce;
-                enemyCharacter.AddForce(positionGap, ForceMode2D.Impulse);
-                StartCoroutine(KnockCoRoutine(enemyCharacter));
-            }
-        }
-    }
 
-    private IEnumerator KnockCoRoutine(Rigidbody2D enemyEffect) 
-    {
-        if (enemyEffect) 
+        if (collision.gameObject.CompareTag("PotBreaking") && this.gameObject.CompareTag("Player"))
         {
-            yield return new WaitForSeconds(knockTime);
-            enemyEffect.velocity = Vector2.zero;
-            enemyEffect.GetComponent<EnemyScript>().currentState = EnemyState.idle;
+            collision.GetComponent<ObjectBreak>().SmashObject();
+        } 
+
+        if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Player")) 
+        {
+            Rigidbody2D hitObject = collision.GetComponent<Rigidbody2D>();
+
+            if (hitObject != null) 
+            {
+                Vector2 positionGap = hitObject.transform.position - transform.position;
+                positionGap = positionGap.normalized * pushForce;
+                hitObject.AddForce(positionGap, ForceMode2D.Impulse);
+
+                if (collision.gameObject.CompareTag("Enemy")) 
+                {
+                    hitObject.GetComponent<EnemyScript>().currentState = EnemyState.stagger;
+                    collision.GetComponent<EnemyScript>().KnockbackEffect(hitObject, knockTime);
+                }
+
+                if (collision.gameObject.CompareTag("Player")) 
+                {
+                    hitObject.GetComponent<PlayerMovement>().currentstate = PlayerState.stagger;
+                    collision.GetComponent<PlayerMovement>().Knock(knockTime);
+                }
+                
+            }
         }
     }
 }

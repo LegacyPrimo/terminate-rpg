@@ -6,7 +6,9 @@ public enum PlayerState
 {
     walk,
     attack, 
-    interact
+    interact,
+    stagger,
+    idle
 }
 
 public class PlayerMovement : MonoBehaviour
@@ -38,17 +40,23 @@ public class PlayerMovement : MonoBehaviour
         directionChange = Vector3.zero;
         directionChange.x = Input.GetAxisRaw("Horizontal"); 
         directionChange.y = Input.GetAxisRaw("Vertical");
-        
-        if (Input.GetButtonDown("attack") && currentstate != PlayerState.attack) 
+
+        if (Input.GetButtonDown("attack") && currentstate != PlayerState.attack && currentstate != PlayerState.stagger)
         {
             StartCoroutine(AttackCo());
         }
-        else if (currentstate == PlayerState.walk) 
+        else if (currentstate == PlayerState.walk || currentstate == PlayerState.idle) 
         {
             UpdateAnimationMovement();
         }
         
     }
+
+    public void Knock(float knockTime) 
+    {
+        StartCoroutine(KnockCoRoutine(knockTime));
+    }
+
     void UpdateAnimationMovement() 
     {
         if (directionChange != Vector3.zero)
@@ -83,4 +91,16 @@ public class PlayerMovement : MonoBehaviour
                 transform.position + directionChange * speed * Time.deltaTime
              );
     }
+
+    private IEnumerator KnockCoRoutine(float knockTime)
+    {
+        if (rigidbody)
+        {
+            yield return new WaitForSeconds(knockTime);
+            rigidbody.velocity = Vector2.zero;
+            currentstate = PlayerState.idle;
+            rigidbody.velocity = Vector2.zero;
+        }
+    }
 }
+
