@@ -287,7 +287,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1101147798353272091, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: damageTaken
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1106543279541914950, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: m_TagString
@@ -359,7 +359,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3094286991657138655, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: damageTaken
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4318395256219425122, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: pushForce
@@ -367,7 +367,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4318395256219425122, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: damageTaken
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7891949889242167687, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: pushForce
@@ -375,7 +375,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7891949889242167687, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: damageTaken
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
