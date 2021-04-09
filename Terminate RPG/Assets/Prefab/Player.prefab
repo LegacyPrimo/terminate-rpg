@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1101147798353272091}
   m_Layer: 0
   m_Name: RightHitBox
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,8 +74,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93991593e3ac7894eb37bdbce11164d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pushForce: 5
+  pushForce: 3
   knockTime: 0.4
+  damageTaken: 0.5
 --- !u!1 &1106543279548427990
 GameObject:
   m_ObjectHideFlags: 0
@@ -89,7 +90,7 @@ GameObject:
   - component: {fileID: 7891949889242167687}
   m_Layer: 0
   m_Name: LeftHitBox
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -150,8 +151,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93991593e3ac7894eb37bdbce11164d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pushForce: 5
+  pushForce: 3
   knockTime: 0.4
+  damageTaken: 0.5
 --- !u!1 &1106543280328990911
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,7 +366,7 @@ GameObject:
   - component: {fileID: 3094286991657138655}
   m_Layer: 0
   m_Name: UpHitBox
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -427,8 +429,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93991593e3ac7894eb37bdbce11164d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pushForce: 5
+  pushForce: 3
   knockTime: 0.4
+  damageTaken: 0.5
 --- !u!1 &1106543281123742575
 GameObject:
   m_ObjectHideFlags: 0
@@ -442,7 +445,7 @@ GameObject:
   - component: {fileID: 4318395256219425122}
   m_Layer: 0
   m_Name: DownHitBox
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -503,5 +506,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93991593e3ac7894eb37bdbce11164d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pushForce: 5
+  pushForce: 3
   knockTime: 0.4
+  damageTaken: 0.5
