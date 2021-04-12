@@ -158,7 +158,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5129083612762741467, guid: cd5590561c6be8e4d9424c31c86f5b43, type: 3}
       propertyPath: cameraChange.y
-      value: -25
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 5129083612762741467, guid: cd5590561c6be8e4d9424c31c86f5b43, type: 3}
       propertyPath: playerChange.x
@@ -373,6 +373,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1459940050, guid: 81a1f3834840d4c45b66665a62959447, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1459940051, guid: 81a1f3834840d4c45b66665a62959447, type: 3}
       propertyPath: m_UseSpriteMesh
       value: 0
@@ -832,7 +836,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5129083612762741467, guid: cd5590561c6be8e4d9424c31c86f5b43, type: 3}
       propertyPath: cameraChange.y
-      value: 25
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5129083612762741467, guid: cd5590561c6be8e4d9424c31c86f5b43, type: 3}
       propertyPath: playerChange.x
