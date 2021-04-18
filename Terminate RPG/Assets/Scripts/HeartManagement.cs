@@ -10,6 +10,7 @@ public class HeartManagement : MonoBehaviour
     public Sprite halfHeart;
     public Sprite emptyHeart;
     public FloatValue heartContainer;
+    public FloatValue playerCurrentHealth;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,27 @@ public class HeartManagement : MonoBehaviour
         {
             heartImage[i].gameObject.SetActive(true);
             heartImage[i].sprite = fullHeart;
+        }
+    }
+
+    public void UpdateHearts() 
+    {
+        float temporaryHealth = playerCurrentHealth.runtimeValue / 2;
+
+        for (int i = 0; i < heartContainer.initialValue; i++) 
+        {
+            if (i <= temporaryHealth -1)
+            {
+                heartImage[i].sprite = fullHeart;
+            }
+            else if (i >= temporaryHealth)
+            {
+                heartImage[i].sprite = emptyHeart;
+            }
+            else 
+            {
+                heartImage[i].sprite = halfHeart;
+            }
         }
     }
 }

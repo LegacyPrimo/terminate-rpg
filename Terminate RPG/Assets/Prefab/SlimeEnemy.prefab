@@ -216,4 +216,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pushForce: 4
   knockTime: 0.2
-  damageTaken: 0
+  damageTaken: 1

@@ -44,7 +44,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 24339bb9e8a0ed14f8762ae175d1a967, type: 3}
-    totalSpriteSurfaceArea: 22269988
+    totalSpriteSurfaceArea: 22204452
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -309,7 +309,6 @@ SpriteAtlas:
   - {fileID: -1336061031832674280, guid: 0f4c8f0b72d999342bf5807bce98ecde, type: 3}
   - {fileID: -6245499099410882755, guid: 0f4c8f0b72d999342bf5807bce98ecde, type: 3}
   - {fileID: 1111167227809828045, guid: 0f4c8f0b72d999342bf5807bce98ecde, type: 3}
-  - {fileID: 7482667652216324306, guid: 7a1f6a5b1f84e7b478fa13d5efca3a89, type: 3}
   - {fileID: 4557432002032306613, guid: 091cc99b35cd8374aaa1484994df4e8e, type: 3}
   - {fileID: -2463606466131337214, guid: 091cc99b35cd8374aaa1484994df4e8e, type: 3}
   - {fileID: 7677767742684692084, guid: 091cc99b35cd8374aaa1484994df4e8e, type: 3}
@@ -686,7 +685,6 @@ SpriteAtlas:
   - Male Character Walk Left_3
   - Male Character Walk Left_0
   - Male Character Walk Left_1
-  - Square
   - FC idle sprite_2
   - FC idle sprite_3
   - FC idle sprite_0
