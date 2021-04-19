@@ -32,7 +32,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 24339bb9e8a0ed14f8762ae175d1a967, type: 3}
-    totalSpriteSurfaceArea: 22216240
+    totalSpriteSurfaceArea: 22218595
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -264,7 +264,10 @@ SpriteAtlas:
   - {fileID: -961847709701135639, guid: 64d141752b7501845977b19bfbd0ad9a, type: 3}
   - {fileID: -6540960161213100121, guid: 64d141752b7501845977b19bfbd0ad9a, type: 3}
   - {fileID: -3954558735460462204, guid: 64d141752b7501845977b19bfbd0ad9a, type: 3}
-  - {fileID: 21300000, guid: c048efe50c590df499559c692e6e510e, type: 3}
+  - {fileID: 1293832054776514992, guid: c048efe50c590df499559c692e6e510e, type: 3}
+  - {fileID: 6516060794733974977, guid: c048efe50c590df499559c692e6e510e, type: 3}
+  - {fileID: -4418628312229002094, guid: c048efe50c590df499559c692e6e510e, type: 3}
+  - {fileID: -2886315372807183802, guid: c048efe50c590df499559c692e6e510e, type: 3}
   - {fileID: 21300000, guid: a440a126801ff054f82c3a5890521ab8, type: 3}
   - {fileID: 21300000, guid: b0d8ff266f9cc49438a1f2ba32878d12, type: 3}
   - {fileID: 21300000, guid: fa284a56a76dce84b9a9f32aad072a39, type: 3}
@@ -275,6 +278,10 @@ SpriteAtlas:
   - {fileID: 6379682838315805679, guid: 89acd67688cc9c940906e446ca6db744, type: 3}
   - {fileID: 21300000, guid: 948a2ba60701aad4cb1c62b8bc6e5396, type: 3}
   - {fileID: 21300000, guid: cf7bf107765dd0344acb1655c1d9d20b, type: 3}
+  - {fileID: -7396292804380429369, guid: 5e81e36793215cc44a183f4efda5daf5, type: 3}
+  - {fileID: -7521768123449349195, guid: 5e81e36793215cc44a183f4efda5daf5, type: 3}
+  - {fileID: 1699915316489228868, guid: 5e81e36793215cc44a183f4efda5daf5, type: 3}
+  - {fileID: -3975145706295967997, guid: 5e81e36793215cc44a183f4efda5daf5, type: 3}
   - {fileID: 7355717184789862559, guid: 31adbf678288ffb429267a345b41844e, type: 3}
   - {fileID: -4298016824190866618, guid: 31adbf678288ffb429267a345b41844e, type: 3}
   - {fileID: 2602465131142918824, guid: 31adbf678288ffb429267a345b41844e, type: 3}
@@ -653,7 +660,10 @@ SpriteAtlas:
   - FC run left sprite_3
   - FC run left sprite_0
   - FC run left sprite_1
-  - Down-Slash
+  - Down-Slash_2
+  - Down-Slash_3
+  - Down-Slash_0
+  - Down-Slash_1
   - underworld_load-extra-32x32
   - Buildings
   - DesertTilemapBlankBackground
@@ -664,6 +674,10 @@ SpriteAtlas:
   - SlimeAttackDown_3
   - Fence_Gate_Animations
   - MutatedBoneAttackDown
+  - Down-Knife-Slash_2
+  - Down-Knife-Slash_3
+  - Down-Knife-Slash_0
+  - Down-Knife-Slash_1
   - FC idle left sprite_3
   - FC idle left sprite_2
   - FC idle left sprite_1

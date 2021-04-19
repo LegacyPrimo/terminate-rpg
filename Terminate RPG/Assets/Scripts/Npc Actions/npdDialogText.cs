@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class npdDialogText : MonoBehaviour
 {
+    public SignalReader talkSymbolOn;
+    public SignalReader talkSymbolOff;
     public GameObject dialogBox;
     public Text dialogText;
     public string dialog;
@@ -37,6 +39,7 @@ public class npdDialogText : MonoBehaviour
     {
         if (collision.CompareTag("Player")) 
         {
+            talkSymbolOn.Raise();
             playerInRange = true;
         }
     }
@@ -45,6 +48,7 @@ public class npdDialogText : MonoBehaviour
     {
         if (collision.CompareTag("Player")) 
         {
+            talkSymbolOff.Raise();
             playerInRange = false;
             dialogBox.SetActive(false);
         }
