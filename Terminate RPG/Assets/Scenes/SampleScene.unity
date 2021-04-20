@@ -2751,6 +2751,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2932296460604310850, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932296460604310850, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 98
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932296460604310850, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831171933577011872, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_Size.y
+      value: 1.8190346
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831171933577011872, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.6603584
+      objectReference: {fileID: 0}
     - target: {fileID: 7690942501403585718, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -2799,6 +2819,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: GirlChildNPC
       objectReference: {fileID: 0}
+    - target: {fileID: 8737999154878886061, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_Size.x
+      value: 1.0277948
+      objectReference: {fileID: 0}
+    - target: {fileID: 8737999154878886061, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.013897419
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
 --- !u!1 &382160718113252755 stripped
@@ -2824,7 +2852,7 @@ MonoBehaviour:
   dialogText: {fileID: 1739870070}
   dialog: Hey! Where are you going? Mother said that I cannot go far away because
     it is dangerous outside! I want to go though
-  playerInRange: 0
+  playerInRange: 1
 --- !u!1001 &1106543280808888911
 PrefabInstance:
   m_ObjectHideFlags: 0
