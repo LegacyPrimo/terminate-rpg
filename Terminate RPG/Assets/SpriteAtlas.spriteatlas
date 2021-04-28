@@ -32,7 +32,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 24339bb9e8a0ed14f8762ae175d1a967, type: 3}
-    totalSpriteSurfaceArea: 22218595
+    totalSpriteSurfaceArea: 30323811
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -203,6 +203,7 @@ SpriteAtlas:
   - {fileID: 538826285080647454, guid: 205175b0aa238a94fb7205f1e7f05f61, type: 3}
   - {fileID: 1107736971085435061, guid: 205175b0aa238a94fb7205f1e7f05f61, type: 3}
   - {fileID: -377563455374678323, guid: 205175b0aa238a94fb7205f1e7f05f61, type: 3}
+  - {fileID: 21300000, guid: b79972c0a3a344d4fbda1f2f64d3a27f, type: 3}
   - {fileID: 21300000, guid: 263b03e0f54f08541ba055d50370e303, type: 3}
   - {fileID: -246585539233623569, guid: d86d371176fb8ce4fa1a4343f52230e5, type: 3}
   - {fileID: -5128073264413017003, guid: d86d371176fb8ce4fa1a4343f52230e5, type: 3}
@@ -260,6 +261,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 980876a42aa73df4587a4c51df126280, type: 3}
   - {fileID: 21300000, guid: a75636b41a5717a44abcb5edc863d188, type: 3}
   - {fileID: 21300000, guid: 0758a7c45d1fd9d4199b72a37fcb6d9a, type: 3}
+  - {fileID: 21300000, guid: 256e63e44e5919c4c9fcda2ebf011928, type: 3}
   - {fileID: 1859541399950524337, guid: 64d141752b7501845977b19bfbd0ad9a, type: 3}
   - {fileID: -961847709701135639, guid: 64d141752b7501845977b19bfbd0ad9a, type: 3}
   - {fileID: -6540960161213100121, guid: 64d141752b7501845977b19bfbd0ad9a, type: 3}
@@ -289,7 +291,6 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 8f5b5f77aeabce04992a2a0da5877c23, type: 3}
   - {fileID: 21300000, guid: 4fd3e2a7235867d4ab15da6a44148111, type: 3}
   - {fileID: 21300000, guid: 5ee4e4a7908b1014d938a871b9c8998a, type: 3}
-  - {fileID: 21300000, guid: 72a0c2e72ed02de4c8550631a79b6e7b, type: 3}
   - {fileID: 8509529093959887658, guid: 2ec4e72844894b1448551704670d4129, type: 3}
   - {fileID: 5597074860520962906, guid: 2ec4e72844894b1448551704670d4129, type: 3}
   - {fileID: -8504474121461488498, guid: 2ec4e72844894b1448551704670d4129, type: 3}
@@ -599,6 +600,7 @@ SpriteAtlas:
   - objects_119
   - objects_109
   - objects_108
+  - 179245279_155278709776766_3379390735026173940_n
   - MutatedBoneWalkRight
   - Right-Slash_2
   - Right-Slash_3
@@ -656,6 +658,7 @@ SpriteAtlas:
   - underworld_load-lomem-32x32
   - font
   - DesertTilemap16x16
+  - 179279725_1140183336405975_2066722916547101982_n
   - FC run left sprite_2
   - FC run left sprite_3
   - FC run left sprite_0
@@ -685,7 +688,6 @@ SpriteAtlas:
   - ButtonGif3
   - Street
   - Inner
-  - _Example
   - Left-Slash_1
   - Left-Slash_0
   - Left-Slash_3
