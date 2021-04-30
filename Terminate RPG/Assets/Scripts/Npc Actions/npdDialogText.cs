@@ -16,7 +16,7 @@ public class npdDialogText : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        attackButton = FindObjectOfType<AttackButton>();
     }
 
     // Update is called once per frame

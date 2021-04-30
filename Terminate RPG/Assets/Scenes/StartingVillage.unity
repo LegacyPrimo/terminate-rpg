@@ -978,6 +978,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 382160718113252757}
+  - {fileID: 2016687255}
+  - {fileID: 1078379349}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1875,6 +1877,135 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5129083612762741476, guid: cd5590561c6be8e4d9424c31c86f5b43, type: 3}
   m_PrefabInstance: {fileID: 976227879}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1078379348
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 574008917}
+    m_Modifications:
+    - target: {fileID: 2932296460604310850, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d882d5ac5054e6f4d855dcdf6142c6c4, type: 3}
+    - target: {fileID: 2932296460604310850, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932296460604310850, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 98
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932296460604310850, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831171933577011872, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_Size.x
+      value: 1.989111
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831171933577011872, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_Size.y
+      value: 1.9380755
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831171933577011872, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0014467239
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831171933577011872, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.44211745
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690942501403585718, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690942501403585718, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690942501403585718, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690942501403585718, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 47.621033
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690942501403585718, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690942501403585718, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690942501403585718, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690942501403585718, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690942501403585718, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690942501403585718, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690942501403585718, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027069492227745779, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_Name
+      value: WarnerRobot
+      objectReference: {fileID: 0}
+    - target: {fileID: 8737999154878886061, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_Size.x
+      value: 1.0277948
+      objectReference: {fileID: 0}
+    - target: {fileID: 8737999154878886061, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.013897419
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+--- !u!4 &1078379349 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7690942501403585718, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+  m_PrefabInstance: {fileID: 1078379348}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1078379350 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8027069492227745779, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+  m_PrefabInstance: {fileID: 1078379348}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1078379351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078379350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 879d4f828a42ee6438ac3020fc032c14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  talkSymbolOn: {fileID: 11400000, guid: ab233792b2e991f4b86542f27654f79e, type: 2}
+  talkSymbolOff: {fileID: 11400000, guid: 87aa1fef9c553694da223732ce33b2e4, type: 2}
+  dialogBox: {fileID: 1595241778}
+  dialogText: {fileID: 1739870070}
+  dialog: Attention. You are going outside and therefore you will not be able to
+    go back at all for you will be considered an infected. You should turn back now
+    if you want. If you will continue, do make sure that you will be able to get
+    the vaccine.
+  playerInRange: 1
+  attackButton: {fileID: 0}
 --- !u!1 &1180007196
 GameObject:
   m_ObjectHideFlags: 0
@@ -3038,6 +3169,133 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: -2695619058785784247, guid: 3119da95e7120e94eb0c239a6bd056ae, type: 3}
+--- !u!1001 &2016687254
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 574008917}
+    m_Modifications:
+    - target: {fileID: 2932296460604310850, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d3e678a680d8d03479f56ac8b27ec54b, type: 3}
+    - target: {fileID: 2932296460604310850, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932296460604310850, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 98
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932296460604310850, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831171933577011872, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_Size.x
+      value: 1.989111
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831171933577011872, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_Size.y
+      value: 1.9380755
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831171933577011872, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0014467239
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831171933577011872, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.44211745
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690942501403585718, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690942501403585718, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690942501403585718, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 15.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690942501403585718, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 47.621033
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690942501403585718, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690942501403585718, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690942501403585718, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690942501403585718, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690942501403585718, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690942501403585718, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690942501403585718, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027069492227745779, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_Name
+      value: OldManNpc
+      objectReference: {fileID: 0}
+    - target: {fileID: 8737999154878886061, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_Size.x
+      value: 1.0277948
+      objectReference: {fileID: 0}
+    - target: {fileID: 8737999154878886061, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.013897419
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+--- !u!4 &2016687255 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7690942501403585718, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+  m_PrefabInstance: {fileID: 2016687254}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2016687256 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8027069492227745779, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+  m_PrefabInstance: {fileID: 2016687254}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2016687257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016687256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 879d4f828a42ee6438ac3020fc032c14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  talkSymbolOn: {fileID: 11400000, guid: ab233792b2e991f4b86542f27654f79e, type: 2}
+  talkSymbolOff: {fileID: 11400000, guid: 87aa1fef9c553694da223732ce33b2e4, type: 2}
+  dialogBox: {fileID: 1595241778}
+  dialogText: {fileID: 1739870070}
+  dialog: Young lad. Are you sure that you will go outside of this village? There
+    are numerous monsters out there that you do not know.
+  playerInRange: 1
+  attackButton: {fileID: 0}
 --- !u!1 &2029520726
 GameObject:
   m_ObjectHideFlags: 0
@@ -3226,7 +3484,7 @@ MonoBehaviour:
   dialog: Hey! Where are you going? Mother said that I cannot go far away because
     it is dangerous outside! I want to go though
   playerInRange: 1
-  attackButton: {fileID: 0}
+  attackButton: {fileID: 81018989}
 --- !u!4 &382160718113252757 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7690942501403585718, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
