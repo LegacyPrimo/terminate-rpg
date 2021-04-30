@@ -11,18 +11,18 @@ public class npdDialogText : MonoBehaviour
     public Text dialogText;
     public string dialog;
     public bool playerInRange;
-    public AttackButton attackButton;
+    public InteractButton interact;
 
     // Start is called before the first frame update
     void Start()
     {
-        attackButton = FindObjectOfType<AttackButton>();
+        interact = FindObjectOfType<InteractButton>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (attackButton.ButtonPressed && playerInRange) 
+        if (interact.interactButtonPressed && playerInRange) 
         {
             if (dialogBox.activeInHierarchy)
             {

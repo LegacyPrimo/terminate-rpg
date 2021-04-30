@@ -3,19 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class AttackButton : MonoBehaviour, IPointerUpHandler, IPointerDownHandler
+public class InteractButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     [HideInInspector]
-    public bool ButtonPressed;
+    public bool interactButtonPressed;
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        ButtonPressed = true;
+        interactButtonPressed = true;
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        ButtonPressed = false;
+        interactButtonPressed = false;
     }
-
 }
