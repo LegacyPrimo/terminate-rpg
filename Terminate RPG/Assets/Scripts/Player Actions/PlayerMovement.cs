@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public enum PlayerState 
 {
@@ -21,6 +22,8 @@ public class PlayerMovement : MonoBehaviour
     public VectorValue startingPosition;
     public FloatValue currentHealth;
     public SignalReader playerHealthSignal;
+    public Joystick joystick;
+    public AttackButton attackButton;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
         currentstate = PlayerState.walk;
         animator = GetComponent<Animator>();
         rigidbody = GetComponent<Rigidbody2D>();
+        attackButton = FindObjectOfType<AttackButton>();
         animator.SetFloat("moveX", 0);
         animator.SetFloat("moveY", -1);
         transform.position = startingPosition.initialValue;
@@ -38,10 +42,10 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         directionChange = Vector3.zero;
-        directionChange.x = Input.GetAxisRaw("Horizontal"); 
-        directionChange.y = Input.GetAxisRaw("Vertical");
+        directionChange.x = joystick.Horizontal;
+        directionChange.y = joystick.Vertical;
 
-        if (Input.GetButtonDown("attack") && currentstate != PlayerState.attack && currentstate != PlayerState.stagger)
+        if (attackButton.ButtonPressed && currentstate != PlayerState.attack && currentstate != PlayerState.stagger)
         {
             StartCoroutine(AttackCo());
         }

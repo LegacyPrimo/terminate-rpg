@@ -11,6 +11,7 @@ public class npdDialogText : MonoBehaviour
     public Text dialogText;
     public string dialog;
     public bool playerInRange;
+    public AttackButton attackButton;
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +22,7 @@ public class npdDialogText : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.KeypadEnter) && playerInRange) 
+        if (attackButton.ButtonPressed && playerInRange) 
         {
             if (dialogBox.activeInHierarchy)
             {
