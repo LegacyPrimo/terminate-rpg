@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 1689952bc143fe145bef2d9a3b70a796
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: cc34d0f3dc257a442819830b408c5322, type: 3}
+  missingFiles:
+  - Assets/Art/Scut 7DRL Tilemaps Itch/Graphic Revision Tileset 02.png
+  errors:
+  - 'Missing texture asset: Graphic Revision Tileset 02.png'
+  warnings: []
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 11
+  pixelsPerUnit: 100
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 2
+  useSpriteAtlas: 1
+  atlasWidth: 2048
+  atlasHeight: 2048
