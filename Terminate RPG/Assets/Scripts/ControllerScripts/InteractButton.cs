@@ -15,6 +15,6 @@ public class InteractButton : MonoBehaviour, IPointerDownHandler, IPointerUpHand
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        interactButtonPressed = false;
+        interactButtonPressed = false; 
     }
 }
