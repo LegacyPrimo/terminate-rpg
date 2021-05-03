@@ -2202,11 +2202,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1106543280328990907, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25
+      value: 25.96
       objectReference: {fileID: 0}
     - target: {fileID: 1106543280328990907, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -23
+      value: -23.3
       objectReference: {fileID: 0}
     - target: {fileID: 1106543280328990907, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2442,10 +2442,6 @@ PrefabInstance:
       propertyPath: fadeInPanel
       value: 
       objectReference: {fileID: 5838501531399625263, guid: 3f7412021c2207043b1782454a101b08, type: 3}
-    - target: {fileID: 6455451073394438825, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
-      propertyPath: sceneToLoad
-      value: PlayerHouse
-      objectReference: {fileID: 0}
     - target: {fileID: 6455451073394438825, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
       propertyPath: fadeOutPanel
       value: 

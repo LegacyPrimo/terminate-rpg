@@ -609,7 +609,6 @@ GameObject:
   - component: {fileID: 1759508202}
   - component: {fileID: 1759508201}
   - component: {fileID: 1759508200}
-  - component: {fileID: 1759508203}
   m_Layer: 5
   m_Name: PlayButton
   m_TagString: Untagged
@@ -731,24 +730,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1759508198}
   m_CullTransparentMesh: 1
---- !u!114 &1759508203
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1759508198}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f65b565b7aacb64dbe7366fea51a2ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneToLoad: OpeningMessage
-  playerPosition: {x: 0, y: 0}
-  playerSetPosition: {fileID: 0}
-  fadeInPanel: {fileID: 5838501531399625263, guid: 3f7412021c2207043b1782454a101b08, type: 3}
-  fadeOutPanel: {fileID: 5757140694274477884, guid: 366990805ae512648961705ce2bb94df, type: 3}
-  fadeWaitingTime: 1
 --- !u!1 &1803090714
 GameObject:
   m_ObjectHideFlags: 0
