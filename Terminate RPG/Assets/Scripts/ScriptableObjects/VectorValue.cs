@@ -15,6 +15,5 @@ public class VectorValue : ScriptableObject, ISerializationCallbackReceiver
 
     public void OnBeforeSerialize()
     {
-        throw new System.NotImplementedException();
     }
 }

@@ -9,8 +9,8 @@ public class npdDialogText : MonoBehaviour
     public SignalReader talkSymbolOff;
     public GameObject dialogBox;
     public Text dialogText;
-    public string dialog;
     public bool playerInRange;
+    public DialogueTexts dialogueTexts;
     public InteractButton interact;
 
     // Start is called before the first frame update
@@ -31,9 +31,13 @@ public class npdDialogText : MonoBehaviour
             else 
             {
                 dialogBox.SetActive(true);
-                dialogText.text = dialog;
             }
         }
+    }
+
+    public void TriggerDialogue()
+    {
+        FindObjectOfType<DialogueManager>().StartDialogue(dialogueTexts);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
