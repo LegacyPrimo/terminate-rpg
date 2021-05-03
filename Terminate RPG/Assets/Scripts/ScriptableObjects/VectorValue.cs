@@ -16,6 +16,7 @@ public class VectorValue : ScriptableObject
 
     public void OnBeforeSerialize()
     {
+        throw new System.NotImplementedException();
     }
 =======
 >>>>>>> parent of 1c84366 (Opening Message Ready for Alpha)
