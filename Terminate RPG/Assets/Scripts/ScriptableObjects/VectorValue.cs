@@ -16,7 +16,7 @@ public class VectorValue : ScriptableObject
 
     public void OnBeforeSerialize()
     {
-        throw new System.NotImplementedException();
+
     }
 
 }
