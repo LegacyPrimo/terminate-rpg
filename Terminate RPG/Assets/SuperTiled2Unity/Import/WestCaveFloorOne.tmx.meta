@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ece8886a0cd384a4d95c33c130372384
+guid: 7df11b1071898fc45b9f5e00ca4d31f1
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -10,16 +10,12 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
   missingFiles: []
   errors: []
-  warnings:
-  - Pixels Per Unit mismatch between map (100) and tileset 'CaveTileSet.tsx' (16)
-  - Pixels Per Unit mismatch between map (100) and tileset 'NinjaTilesetFloorDetail.tsx'
-    (16)
-  - Pixels Per Unit mismatch between map (100) and tileset 'SewerTileset.tsx' (16)
+  warnings: []
   missingSortingLayers: []
   missingLayers: []
   missingTags: []
   importerVersion: 21
-  pixelsPerUnit: 16
+  pixelsPerUnit: 100
   edgesPerEllipse: 32
   numberOfObjectsImported: 2
   tilesAsObjects: 0

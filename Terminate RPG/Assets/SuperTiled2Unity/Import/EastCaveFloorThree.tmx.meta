@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ece8886a0cd384a4d95c33c130372384
+guid: 9997bb2ba4b012b408afaff0c7bd8209
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -12,9 +12,10 @@ ScriptedImporter:
   errors: []
   warnings:
   - Pixels Per Unit mismatch between map (100) and tileset 'CaveTileSet.tsx' (16)
-  - Pixels Per Unit mismatch between map (100) and tileset 'NinjaTilesetFloorDetail.tsx'
+  - Pixels Per Unit mismatch between map (100) and tileset 'DarkWorldAtlasTileset.tsx'
     (16)
-  - Pixels Per Unit mismatch between map (100) and tileset 'SewerTileset.tsx' (16)
+  - Pixels Per Unit mismatch between map (100) and tileset 'DarkWorldIndoorTileset.tsx'
+    (16)
   missingSortingLayers: []
   missingLayers: []
   missingTags: []
