@@ -10,12 +10,53 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
   missingFiles: []
   errors: []
-  warnings: []
+  warnings:
+  - Pixels Per Unit mismatch between map (100) and tileset 'CaveTileSet.tsx' (16)
+  - Pixels Per Unit mismatch between map (100) and tileset 'NinjaTilesetNature.tsx'
+    (16)
+  - Pixels Per Unit mismatch between map (100) and tileset 'DarkWorldAtlasTileset.tsx'
+    (16)
+  - Pixels Per Unit mismatch between map (100) and tileset 'DarkWorldIndoorTileset.tsx'
+    (16)
+  - Pixels Per Unit mismatch between map (100) and tileset 'DarkWorldIndoorTilesetTwo.tsx'
+    (16)
+  - Pixels Per Unit mismatch between map (100) and tileset 'DarkWorldOutdoorTileSet.tsx'
+    (16)
+  - Pixels Per Unit mismatch between map (100) and tileset 'DesertTileset.tsx' (16)
+  - Pixels Per Unit mismatch between map (100) and tileset 'FuturisticTileset.tsx'
+    (16)
+  - Pixels Per Unit mismatch between map (100) and tileset 'GenericRpgTileset.tsx'
+    (16)
+  - Pixels Per Unit mismatch between map (100) and tileset 'ModernCityBuildings.tsx'
+    (16)
+  - Pixels Per Unit mismatch between map (100) and tileset 'ModernCityStreetsTileset.tsx'
+    (16)
+  - Pixels Per Unit mismatch between map (100) and tileset 'ModernInteriorsTileset.tsx'
+    (16)
+  - Pixels Per Unit mismatch between map (100) and tileset 'NinjaTilesetDungeon.tsx'
+    (16)
+  - Pixels Per Unit mismatch between map (100) and tileset 'NinjaTilesetElement.tsx'
+    (16)
+  - Pixels Per Unit mismatch between map (100) and tileset 'NinjaTilesetFloor.tsx'
+    (16)
+  - Pixels Per Unit mismatch between map (100) and tileset 'NinjaTilesetFloorDetail.tsx'
+    (16)
+  - Pixels Per Unit mismatch between map (100) and tileset 'NinjaTilesetHouse.tsx'
+    (16)
+  - Pixels Per Unit mismatch between map (100) and tileset 'NinjaTilesetInterior.tsx'
+    (16)
+  - Pixels Per Unit mismatch between map (100) and tileset 'NinjaTilesetInteriorFloor.tsx'
+    (16)
+  - Pixels Per Unit mismatch between map (100) and tileset 'NinjaTilesetWater.tsx'
+    (16)
+  - Pixels Per Unit mismatch between map (100) and tileset 'PlayerHouse.tsx' (16)
+  - Pixels Per Unit mismatch between map (100) and tileset 'SewerTileset.tsx' (16)
+  - Pixels Per Unit mismatch between map (100) and tileset 'WorldSet.tsx' (16)
   missingSortingLayers: []
   missingLayers: []
   missingTags: []
   importerVersion: 21
-  pixelsPerUnit: 100
+  pixelsPerUnit: 16
   edgesPerEllipse: 32
   numberOfObjectsImported: 2
   tilesAsObjects: 0

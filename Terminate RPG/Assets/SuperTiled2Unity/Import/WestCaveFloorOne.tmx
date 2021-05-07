@@ -2,6 +2,27 @@
 <map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="1">
  <tileset firstgid="1" source="CaveTileSet.tsx"/>
  <tileset firstgid="1001" source="NinjaTilesetNature.tsx"/>
+ <tileset firstgid="1289" source="DarkWorldAtlasTileset.tsx"/>
+ <tileset firstgid="1545" source="DarkWorldIndoorTileset.tsx"/>
+ <tileset firstgid="1609" source="DarkWorldIndoorTilesetTwo.tsx"/>
+ <tileset firstgid="1865" source="DarkWorldOutdoorTileSet.tsx"/>
+ <tileset firstgid="1929" source="DesertTileset.tsx"/>
+ <tileset firstgid="2139" source="FuturisticTileset.tsx"/>
+ <tileset firstgid="2243" source="GenericRpgTileset.tsx"/>
+ <tileset firstgid="3267" source="ModernCityBuildings.tsx"/>
+ <tileset firstgid="3447" source="ModernCityStreetsTileset.tsx"/>
+ <tileset firstgid="3703" source="ModernInteriorsTileset.tsx"/>
+ <tileset firstgid="5127" source="NinjaTilesetDungeon.tsx"/>
+ <tileset firstgid="5175" source="NinjaTilesetElement.tsx"/>
+ <tileset firstgid="5415" source="NinjaTilesetFloor.tsx"/>
+ <tileset firstgid="5877" source="NinjaTilesetFloorDetail.tsx"/>
+ <tileset firstgid="5957" source="NinjaTilesetHouse.tsx"/>
+ <tileset firstgid="6325" source="NinjaTilesetInterior.tsx"/>
+ <tileset firstgid="7205" source="NinjaTilesetInteriorFloor.tsx"/>
+ <tileset firstgid="7645" source="NinjaTilesetWater.tsx"/>
+ <tileset firstgid="7813" source="PlayerHouse.tsx"/>
+ <tileset firstgid="8813" source="SewerTileset.tsx"/>
+ <tileset firstgid="9221" source="WorldSet.tsx"/>
  <layer id="1" name="Ground" width="25" height="25">
   <data encoding="csv">
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
