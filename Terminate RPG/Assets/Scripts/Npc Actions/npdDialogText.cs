@@ -3,14 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class npdDialogText : MonoBehaviour
+public class npdDialogText : InteractionObjectScript
 {
-    public SignalReader talkSymbolOn;
-    public SignalReader talkSymbolOff;
     public GameObject dialogBox;
     public Text dialogText;
     public string dialog;
-    public bool playerInRange;
     public InteractButton interact;
 
     // Start is called before the first frame update
@@ -35,19 +32,9 @@ public class npdDialogText : MonoBehaviour
             }
         }
     }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player")) 
-        {
-            talkSymbolOn.Raise();
-            playerInRange = true;
-        }
-    }
-
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player")) 
+        if (collision.CompareTag("Player"))
         {
             talkSymbolOff.Raise();
             playerInRange = false;
