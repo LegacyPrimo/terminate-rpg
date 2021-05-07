@@ -44,7 +44,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 24339bb9e8a0ed14f8762ae175d1a967, type: 3}
-    totalSpriteSurfaceArea: 51264412
+    totalSpriteSurfaceArea: 51275164
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -370,6 +370,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: f905f6e1e84d1df4ba2ce7bcae88c5de, type: 3}
   - {fileID: 21300000, guid: 07aaa1f1a47284c498a2b88a183d601a, type: 3}
   - {fileID: 21300000, guid: 060f1102cbe35894582d562b20268cdb, type: 3}
+  - {fileID: 21300000, guid: 5c6f720281b21bc4c9dc8d6e51b8874e, type: 3}
   - {fileID: 21300000, guid: 8deea9021acb88842b9fec6cfba75f25, type: 3}
   - {fileID: 21300000, guid: 94b71e12deaa8ff4296acb01267ba3e2, type: 3}
   - {fileID: 21300000, guid: 55d690221d160d140972a8c2f7efe9f6, type: 3}
@@ -1901,6 +1902,7 @@ SpriteAtlas:
   - Tileset_16x16_1
   - Attack
   - Fish
+  - galletcity_tiles
   - Attack
   - Jump
   - generic-rpg-tile-waterfall05
