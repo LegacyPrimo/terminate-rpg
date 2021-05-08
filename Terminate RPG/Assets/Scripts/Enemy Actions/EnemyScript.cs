@@ -18,10 +18,16 @@ public class EnemyScript : MonoBehaviour
     public float enemyHealth;
     public int baseAttackDamage;
     public float enemySpeed;
+    public Vector2 startingPosition;
 
     private void Awake() 
     {
         enemyHealth = maxHealth.initialValue;
+    }
+
+    private void OnEnable()
+    {
+        transform.position = startingPosition;
     }
 
     private void DamageIntake(float damage) 
