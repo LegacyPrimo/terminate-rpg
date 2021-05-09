@@ -5,12 +5,16 @@ using UnityEngine.EventSystems;
 
 public class InteractButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
+    public AudioSource audioSource;
+    public AudioClip audioClip;
+
     [HideInInspector]
     public bool interactButtonPressed;
 
     public void OnPointerDown(PointerEventData eventData)
     {
         interactButtonPressed = true;
+        audioSource.PlayOneShot(audioClip);
     }
 
     public void OnPointerUp(PointerEventData eventData)
