@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="22">
+<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="22">
  <tileset firstgid="1" source="CaveTileSet.tsx"/>
  <tileset firstgid="1001" source="WorldSet.tsx"/>
  <layer id="1" name="Ground" width="25" height="25">
@@ -95,14 +95,10 @@
   <object id="3" x="224.626" y="0.486204" width="175.52" height="22.8516"/>
   <object id="4" x="376.808" y="0" width="22.8516" height="238.24"/>
   <object id="6" x="378.267" y="258.661" width="20.4206" height="139.541"/>
-  <object id="7" x="387.505" y="237.268" width="10.6965" height="21.393"/>
   <object id="8" x="241.643" y="377.294" width="158.502" height="20.9068"/>
   <object id="9" x="160.447" y="378.267" width="61.7479" height="20.9068"/>
   <object id="11" x="0.486204" y="235.809" width="132.247" height="119.12"/>
   <object id="12" x="1.94482" y="314.574" width="155.585" height="87.0305"/>
-  <object id="15" x="368.056" y="237.268">
-   <polygon points="0,0 13.1275,2.43102 18.4758,4.37584 17.9895,14.0999 15.0723,18.4758 0.486204,20.4206 14.5861,16.5309 17.9895,6.80686 9.72408,5.34824"/>
-  </object>
   <object id="16" x="198.371" y="28.1998">
    <polygon points="0,0 -4.86204,-11.6689 -6.32065,-23.824 3.40343,-28.1998 17.9895,-28.1998 22.3654,-25.2826 23.824,-5.83445 22.8516,-0.486204 19.4482,-13.6137 16.5309,-27.7136 -3.40343,-25.7688"/>
   </object>

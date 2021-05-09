@@ -66,8 +66,6 @@
   <object id="9" x="31.6033" y="1.45861" width="368.056" height="15.5585"/>
   <object id="10" x="368.056" y="15.0723" width="32.5757" height="174.547"/>
   <object id="11" x="370.487" y="209.554" width="30.1446" height="187.675"/>
-  <object id="12" x="387.991" y="185.73" width="11.6689" height="23.3378"/>
-  <object id="13" x="0" y="234.837" width="11.6689" height="24.7964"/>
   <object id="14" x="-1.45861" y="259.633" width="35.0067" height="139.541"/>
   <object id="15" x="23.3378" y="383.129" width="359.791" height="16.5309"/>
  </objectgroup>

@@ -6,6 +6,7 @@ public class RoomActions : MonoBehaviour
 {
     public EnemyScript[] enemyUnit;
     public ObjectBreak[] breakableObjects;
+    public GameObject virtualCamera;
 
     public virtual void OnTriggerEnter2D(Collider2D collision)
     {
@@ -19,6 +20,7 @@ public class RoomActions : MonoBehaviour
             {
                 ChangeActivation(breakableObjects[i], true);
             }
+            virtualCamera.SetActive(true);
         }
     }
 
@@ -34,6 +36,7 @@ public class RoomActions : MonoBehaviour
             {
                 ChangeActivation(breakableObjects[i], false);
             }
+            virtualCamera.SetActive(false);
         }
     }
 
