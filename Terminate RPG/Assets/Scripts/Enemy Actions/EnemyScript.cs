@@ -21,6 +21,7 @@ public class EnemyScript : MonoBehaviour
     public Vector2 startingPosition;
     public GameObject deathEffect;
 
+
     private void Awake() 
     {
         enemyHealth = maxHealth.initialValue;
