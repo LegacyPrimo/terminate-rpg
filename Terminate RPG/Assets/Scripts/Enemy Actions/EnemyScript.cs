@@ -19,6 +19,7 @@ public class EnemyScript : MonoBehaviour
     public int baseAttackDamage;
     public float enemySpeed;
     public Vector2 startingPosition;
+    public GameObject deathEffect;
 
     private void Awake() 
     {
@@ -35,7 +36,17 @@ public class EnemyScript : MonoBehaviour
         enemyHealth -= damage;
         if (enemyHealth <= 0) 
         {
+            DeathEffect();
             this.gameObject.SetActive(false);
+        }
+    }
+
+    private void DeathEffect() 
+    {
+        if (deathEffect != null) 
+        {
+            GameObject effect = Instantiate(deathEffect, transform.position, Quaternion.identity);
+            Destroy(effect, 1f); 
         }
     }
 

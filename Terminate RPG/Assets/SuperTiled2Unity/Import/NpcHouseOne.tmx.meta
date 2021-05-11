@@ -14,11 +14,15 @@ ScriptedImporter:
   - Pixels Per Unit mismatch between map (100) and tileset 'NinjaTilesetInteriorFloor.tsx'
     (16)
   - Pixels Per Unit mismatch between map (100) and tileset 'PlayerHouse.tsx' (16)
+  - Pixels Per Unit mismatch between map (100) and tileset 'NinjaTilesetElement.tsx'
+    (16)
+  - Pixels Per Unit mismatch between map (100) and tileset 'ModernInteriorsTileset.tsx'
+    (16)
   missingSortingLayers: []
   missingLayers: []
   missingTags: []
   importerVersion: 21
-  pixelsPerUnit: 100
+  pixelsPerUnit: 16
   edgesPerEllipse: 32
   numberOfObjectsImported: 2
   tilesAsObjects: 0
