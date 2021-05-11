@@ -136,11 +136,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4990689053495757497, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.58
+      value: -2.76
       objectReference: {fileID: 0}
     - target: {fileID: 4990689053495757497, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.78
+      value: -2.88
       objectReference: {fileID: 0}
     - target: {fileID: 4990689053495757497, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -176,19 +176,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4990689053495757502, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
       propertyPath: m_Size.x
-      value: 3.8468356
+      value: 3.0331016
       objectReference: {fileID: 0}
     - target: {fileID: 4990689053495757502, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
       propertyPath: m_Size.y
-      value: 1.014081
+      value: 0.52182245
       objectReference: {fileID: 0}
     - target: {fileID: 4990689053495757502, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
       propertyPath: m_Offset.x
-      value: 0.64446473
+      value: 0.5289347
       objectReference: {fileID: 0}
     - target: {fileID: 4990689053495757502, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
       propertyPath: m_Offset.y
-      value: 0.22755003
+      value: -0.018579245
       objectReference: {fileID: 0}
     - target: {fileID: 4990689053495757503, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
       propertyPath: m_Name
@@ -200,7 +200,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6455451073394438825, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
       propertyPath: fadeWaitingTime
-      value: 0.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6455451073394438825, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
       propertyPath: playerPosition.x
@@ -407,7 +407,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 480348813}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.0966871, y: 1.843396, z: -18.40336}
+  m_LocalPosition: {x: -2, y: 3, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -420,15 +420,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 480348813}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d96f20a53ecf54540a217ee914ca59ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   transformTarget: {fileID: 596738895}
   smoothTransition: 0.1
-  maxPosition: {x: 0.85, y: 1.75}
-  minPosition: {x: -0.8, y: -1.07}
+  maxPosition: {x: 0, y: 0}
+  minPosition: {x: 0, y: 0}
 --- !u!114 &480348818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -712,7 +712,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
+  m_Follow: {fileID: 596738895}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 3
@@ -736,7 +736,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1564949969}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.0966871, y: 1.843396, z: -18.40336}
+  m_LocalPosition: {x: -2, y: 3, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1168730402}
@@ -938,11 +938,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1106543280328990907, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.22
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 1106543280328990907, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.35
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1106543280328990907, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: m_LocalPosition.z

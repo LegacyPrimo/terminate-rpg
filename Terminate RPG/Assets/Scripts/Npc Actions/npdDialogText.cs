@@ -5,10 +5,15 @@ using UnityEngine.UI;
 
 public class npdDialogText : InteractionObjectScript
 {
+    
     public GameObject dialogBox;
     public Text dialogText;
     public string dialog;
     public InteractButton interact;
+    public SignalReader contextOn;
+    public SignalReader contextOff;
+    public bool playerInRange;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -32,11 +37,19 @@ public class npdDialogText : InteractionObjectScript
             }
         }
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player") && !collision.isTrigger)
+        {
+            contextOn.Raise();
+            playerInRange = true;
+        }
+    }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") && !collision.isTrigger)
         {
-            talkSymbolOff.Raise();
+            contextOff.Raise();
             playerInRange = false;
             dialogBox.SetActive(false);
         }

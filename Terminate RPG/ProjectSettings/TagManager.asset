@@ -6,6 +6,8 @@ TagManager:
   tags:
   - PotBreaking
   - Enemy
+  - GirlNpc
+  - FoxNpc
   layers:
   - Default
   - TransparentFX
@@ -14,7 +16,7 @@ TagManager:
   - Water
   - UI
   - Enemy
-  - 
+  - DialogueBox
   - 
   - 
   - 
@@ -51,4 +53,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 2196434221
+    locked: 0
+  - name: Dialogues
+    uniqueID: 2759671501
     locked: 0
