@@ -5,7 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class OpeningMessageButtonScript : MonoBehaviour
 {
-    
+    private void Start()
+    {
+        Screen.SetResolution(1280, 720, true);
+    }
 
     public void NextScene() 
     {
