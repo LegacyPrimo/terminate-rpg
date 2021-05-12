@@ -262,7 +262,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
+    m_Font: {fileID: 12800000, guid: 7eb4b39ea9b8eac48bbadfa325cc1f91, type: 3}
     m_FontSize: 64
     m_FontStyle: 0
     m_BestFit: 0
@@ -297,8 +297,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textSpeed: 0.1
   fullText: "In the year 21XX, the world is being decimated by the evolved COVID-19
-    Variant X. 90% of the human population have been wiped out. The remaining humans
-    formed a village far-away from the virus. Some of them have immunity towards
+    Variant X. 90 Percent of the human population have been wiped out. The remaining
+    humans formed a village far-away from the virus. Some of them have immunity towards
     the virus, some have not. \n\nMajority of the animals and different organisms
     have also mutated towards toxic creatures that can harm the remaining humans.
     \n\nThe Vaccine that is created many years ago is lost due to the ever-mutating
@@ -513,7 +513,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6894a28a07ab0c447964437212000292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingPosition: {fileID: 11400000, guid: 60f8e31107112a24180b6b48755310e8, type: 2}
 --- !u!1 &1570964206
 GameObject:
   m_ObjectHideFlags: 0

@@ -1218,8 +1218,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: 7}
-  m_SizeDelta: {x: 960, y: 320}
+  m_AnchoredPosition: {x: 1, y: 12}
+  m_SizeDelta: {x: 1055.7786, y: 289.481}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &572693960
 MonoBehaviour:
@@ -1242,18 +1242,18 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 997a43b767814dd0a7642ec9b78cba41, type: 3}
-    m_FontSize: 45
+    m_Font: {fileID: 12800000, guid: 75e8791242d9ffe4b855ac1edf6cb063, type: 3}
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 50
+    m_MaxSize: 60
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
-    m_LineSpacing: 1
+    m_LineSpacing: 1.5
   m_Text: NPC Dialog Text
 --- !u!222 &572693961
 CanvasRenderer:
@@ -1947,8 +1947,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: 7}
-  m_SizeDelta: {x: 960, y: 320}
+  m_AnchoredPosition: {x: 1, y: 12}
+  m_SizeDelta: {x: 1040, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &715781495
 MonoBehaviour:
@@ -1971,18 +1971,18 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 997a43b767814dd0a7642ec9b78cba41, type: 3}
-    m_FontSize: 45
+    m_Font: {fileID: 12800000, guid: 75e8791242d9ffe4b855ac1edf6cb063, type: 3}
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 50
+    m_MaxSize: 60
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
-    m_LineSpacing: 1
+    m_LineSpacing: 1.5
   m_Text: NPC Dialog Text
 --- !u!222 &715781496
 CanvasRenderer:
@@ -2900,8 +2900,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: 7}
-  m_SizeDelta: {x: 960, y: 320}
+  m_AnchoredPosition: {x: 1, y: 12}
+  m_SizeDelta: {x: 1040, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1118301118
 MonoBehaviour:
@@ -2924,18 +2924,18 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 997a43b767814dd0a7642ec9b78cba41, type: 3}
-    m_FontSize: 45
+    m_Font: {fileID: 12800000, guid: 75e8791242d9ffe4b855ac1edf6cb063, type: 3}
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 50
+    m_MaxSize: 60
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
-    m_LineSpacing: 1
+    m_LineSpacing: 1.5
   m_Text: NPC Dialog Text
 --- !u!222 &1118301119
 CanvasRenderer:
@@ -3191,8 +3191,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.109, y: -6.5}
-  m_SizeDelta: {x: 1014.6539, y: 347}
+  m_AnchoredPosition: {x: -0.833, y: -2.824}
+  m_SizeDelta: {x: 1040, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1163456170
 MonoBehaviour:
@@ -3215,19 +3215,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 997a43b767814dd0a7642ec9b78cba41, type: 3}
-    m_FontSize: 45
+    m_Font: {fileID: 12800000, guid: 75e8791242d9ffe4b855ac1edf6cb063, type: 3}
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 50
+    m_MaxSize: 60
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
-    m_LineSpacing: 1
-  m_Text: NPC Dialog Text
+    m_LineSpacing: 1.5
+  m_Text: NPC Dialog Box
 --- !u!222 &1163456171
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3270,8 +3270,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: 7}
-  m_SizeDelta: {x: 960, y: 320}
+  m_AnchoredPosition: {x: 1, y: 12}
+  m_SizeDelta: {x: 1040, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1168383184
 MonoBehaviour:
@@ -3294,18 +3294,18 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 997a43b767814dd0a7642ec9b78cba41, type: 3}
-    m_FontSize: 45
+    m_Font: {fileID: 12800000, guid: 75e8791242d9ffe4b855ac1edf6cb063, type: 3}
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 50
+    m_MaxSize: 60
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
-    m_LineSpacing: 1
+    m_LineSpacing: 1.5
   m_Text: NPC Dialog Text
 --- !u!222 &1168383185
 CanvasRenderer:
@@ -4168,19 +4168,23 @@ PrefabInstance:
       objectReference: {fileID: 5838501531399625263, guid: 3f7412021c2207043b1782454a101b08, type: 3}
     - target: {fileID: 6455451073394438825, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
       propertyPath: sceneToLoad
-      value: PlayersHouse
+      value: StartingHouse
       objectReference: {fileID: 0}
     - target: {fileID: 6455451073394438825, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
       propertyPath: fadeOutPanel
       value: 
       objectReference: {fileID: 5757140694274477884, guid: 366990805ae512648961705ce2bb94df, type: 3}
     - target: {fileID: 6455451073394438825, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
+      propertyPath: fadeWaitingTime
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6455451073394438825, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
       propertyPath: playerPosition.x
-      value: -2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6455451073394438825, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
       propertyPath: playerPosition.y
-      value: -0.5
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6455451073394438825, guid: 823d78fc37e4e23438e5fa7bea3cc0c4, type: 3}
       propertyPath: playerSetPosition
@@ -5124,8 +5128,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: 7}
-  m_SizeDelta: {x: 960, y: 320}
+  m_AnchoredPosition: {x: 1, y: 12}
+  m_SizeDelta: {x: 1040, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1908946715
 MonoBehaviour:
@@ -5148,18 +5152,18 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 997a43b767814dd0a7642ec9b78cba41, type: 3}
-    m_FontSize: 45
+    m_Font: {fileID: 12800000, guid: 75e8791242d9ffe4b855ac1edf6cb063, type: 3}
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 50
+    m_MaxSize: 60
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
-    m_LineSpacing: 1
+    m_LineSpacing: 1.5
   m_Text: NPC Dialog Text
 --- !u!222 &1908946716
 CanvasRenderer:
@@ -5467,6 +5471,11 @@ PrefabInstance:
     m_TransformParent: {fileID: 1156716309}
     m_Modifications:
     - target: {fileID: 382160718113252756, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
+      propertyPath: dialog
+      value: Hey! Where are you going? Mother said that I cannot go far away because
+        it is dangerous outside! I want to go though.
+      objectReference: {fileID: 0}
+    - target: {fileID: 382160718113252756, guid: 85a4f2b6a1cdddf4290ddce939ba844e, type: 3}
       propertyPath: context
       value: 
       objectReference: {fileID: 11400000, guid: ab233792b2e991f4b86542f27654f79e, type: 2}
@@ -5618,11 +5627,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1106543280328990907, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 20
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1106543280328990907, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -25
+      value: -24.3
       objectReference: {fileID: 0}
     - target: {fileID: 1106543280328990907, guid: 884fa75f17d544347a858a9a55cc4a76, type: 3}
       propertyPath: m_LocalPosition.z

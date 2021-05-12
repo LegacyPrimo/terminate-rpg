@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="32">
+<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="48">
  <tileset firstgid="1" source="NinjaTilesetInteriorFloor.tsx"/>
  <tileset firstgid="441" source="NinjaTilesetElement.tsx"/>
  <tileset firstgid="681" source="PlayerHouse.tsx"/>
@@ -32,34 +32,21 @@
 721,721,721,721,721,721,0,0,0,0,721,721,721,721,721
 </data>
  </layer>
- <layer id="8" name="Windows" width="15" height="10">
-  <data encoding="csv">
-0,0,2136,2137,0,0,0,0,0,0,0,0,0,0,0,
-0,0,2152,2153,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-</data>
- </layer>
- <objectgroup id="9" name="CollisionMasks">
-  <object id="17" x="0.311506" y="0.311506" width="14.9523" height="159.803"/>
-  <object id="18" x="0.934519" y="144.85" width="94.0749" height="13.7063"/>
-  <object id="19" x="79.7456" y="95.6324" width="15.2638" height="61.9897"/>
-  <object id="20" x="159.803" y="144.539" width="80.0571" height="14.6408"/>
-  <object id="21" x="224.596" y="0.934519" width="14.3293" height="157.622"/>
-  <object id="22" x="159.803" y="64.1703" width="79.7456" height="15.8868"/>
-  <object id="23" x="160.114" y="79.7456" width="14.9523" height="31.7736"/>
-  <object id="24" x="192.199" y="79.4341" width="30.2161" height="31.1506"/>
-  <object id="25" x="0.934519" y="0.623013" width="237.991" height="15.2638"/>
-  <object id="26" x="34.5772" y="7.47615" width="27.7241" height="22.4285"/>
-  <object id="28" x="115.257" y="19.0019" width="11.2142" height="18.3789"/>
-  <object id="29" x="132.702" y="23.986" width="38.6268" height="21.4939"/>
-  <object id="30" x="175.378" y="15.2638" width="14.6408" height="23.363"/>
-  <object id="31" x="191.265" y="14.0178" width="32.7082" height="34.5772"/>
+ <objectgroup id="10" name="ObjectMasks">
+  <object id="32" x="0.311506" y="-0.311506" width="15.5753" height="158.557"/>
+  <object id="33" x="0.623013" y="-0.934519" width="239.237" height="15.5753"/>
+  <object id="34" x="223.038" y="-1.24603" width="16.1983" height="159.803"/>
+  <object id="35" x="0" y="144.227" width="95.6324" height="15.2638"/>
+  <object id="36" x="80.3686" y="96.2554" width="14.3293" height="62.9243"/>
+  <object id="37" x="160.426" y="143.916" width="78.1881" height="14.3293"/>
+  <object id="38" x="160.426" y="63.8588" width="79.1226" height="15.8868"/>
+  <object id="39" x="160.737" y="78.4996" width="15.2638" height="32.0851"/>
+  <object id="40" x="192.822" y="80.9916" width="29.5931" height="31.7736"/>
+  <object id="41" x="16.1983" y="47.972" width="79.7456" height="15.5753"/>
+  <object id="42" x="15.8868" y="79.7456" width="31.4621" height="45.7914"/>
+  <object id="43" x="114.011" y="15.8868" width="13.0833" height="22.4285"/>
+  <object id="44" x="134.259" y="25.5435" width="36.7577" height="18.3789"/>
+  <object id="45" x="177.247" y="17.4444" width="11.5257" height="20.2479"/>
+  <object id="47" x="192.511" y="15.8868" width="29.5931" height="31.7736"/>
  </objectgroup>
 </map>
