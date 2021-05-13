@@ -24,6 +24,8 @@ public class PlayerMovement : MonoBehaviour
     public SignalReader playerHealthSignal;
     public Joystick joystick;
     public AttackButton attackButton;
+    public Inventory playerInventory;
+    public SpriteRenderer receivedItem;
 
     // Start is called before the first frame update
     void Start()
@@ -41,6 +43,10 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (currentstate == PlayerState.interact)
+        {
+            return;
+        }
         directionChange = Vector3.zero;
         directionChange.x = joystick.Horizontal;
         directionChange.y = joystick.Vertical;
@@ -94,7 +100,28 @@ public class PlayerMovement : MonoBehaviour
         yield return null;
         animator.SetBool("Attacking", false);
         yield return new WaitForSeconds(.3f);
-        currentstate = PlayerState.walk;
+        if (currentstate != PlayerState.interact)
+        {
+            currentstate = PlayerState.walk;
+        }    
+    }
+
+    public void RaiseItem() 
+    {
+        if (playerInventory.currentItem != null) 
+        {
+            if (currentstate != PlayerState.interact)
+            {
+                currentstate = PlayerState.interact;
+                receivedItem.sprite = playerInventory.currentItem.ItemSprite;
+            }
+            else
+            {
+                currentstate = PlayerState.idle;
+                receivedItem.sprite = null;
+                playerInventory.currentItem = null;
+            }
+        }
     }
 
     // Movement Calculation of a Character

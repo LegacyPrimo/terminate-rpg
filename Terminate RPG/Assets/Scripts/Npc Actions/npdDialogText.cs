@@ -8,12 +8,10 @@ public class npdDialogText : InteractionObjectScript
     
     public GameObject dialogBox;
     public Text dialogText;
-    public string dialog;
     public InteractButton interact;
-    public SignalReader contextOn;
-    public SignalReader contextOff;
-    public bool playerInRange;
-    
+    public string dialog;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -35,14 +33,6 @@ public class npdDialogText : InteractionObjectScript
                 dialogBox.SetActive(true);
                 dialogText.text = dialog;
             }
-        }
-    }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player") && !collision.isTrigger)
-        {
-            contextOn.Raise();
-            playerInRange = true;
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
