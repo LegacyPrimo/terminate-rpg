@@ -8,9 +8,8 @@ public class MutatedBone : EnemyScript
     public float moveRadius;
     public float attackRadius;
     public Transform initialPosition;
-    private Animator animator;
-    private Rigidbody2D rigidbody2D;
-    private Collider2D collider2D;
+    public Animator animator;
+    public Rigidbody2D rigidbody2D;
 
     // Start is called before the first frame update
     void Start()
@@ -19,7 +18,7 @@ public class MutatedBone : EnemyScript
         rigidbody2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         enemyTarget = GameObject.FindWithTag("Player").transform;
-
+        animator.SetBool("Walking", true);
     }
 
     // Update is called once per frame
@@ -28,7 +27,7 @@ public class MutatedBone : EnemyScript
         CheckDistance();
     }
 
-    void CheckDistance()
+    public virtual void CheckDistance()
     {
         if (Vector3.Distance(enemyTarget.position, transform.position) <= moveRadius
             && Vector3.Distance(enemyTarget.position, transform.position) > attackRadius)
@@ -40,7 +39,6 @@ public class MutatedBone : EnemyScript
                 rigidbody2D.MovePosition(temporary);
                 ChangeState(EnemyState.walk);
                 animator.SetBool("Walking", true);
-                OnTriggerEnter2D(collider2D);
             }
 
         }
@@ -73,7 +71,7 @@ public class MutatedBone : EnemyScript
         animator.SetFloat("moveY", setVector.y);
     }
 
-    private void ChangeAnimation(Vector2 direction)
+    public void ChangeAnimation(Vector2 direction)
     {
         if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
         {

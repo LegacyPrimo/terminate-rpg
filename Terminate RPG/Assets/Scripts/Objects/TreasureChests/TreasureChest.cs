@@ -11,7 +11,7 @@ public class TreasureChest : InteractionObjectScript
     public SignalReader raiseItem;
     public GameObject dialogBox;
     public Text dialogText;
-    public InteractButton interact;
+    
     private Animator animator;
 
     // Start is called before the first frame update

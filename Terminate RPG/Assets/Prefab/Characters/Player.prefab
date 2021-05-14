@@ -465,7 +465,7 @@ Rigidbody2D:
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 4
 --- !u!61 &1106543280328990910
@@ -507,7 +507,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentstate: 0
-  speed: 3
+  speed: 5
   startingPosition: {fileID: 11400000, guid: 60f8e31107112a24180b6b48755310e8, type: 2}
   currentHealth: {fileID: 11400000, guid: f82478628e96f2a4aaaaf460b48fcf57, type: 2}
   playerHealthSignal: {fileID: 11400000, guid: 16fb2cdfc1dfc89468c5696df99689c9, type: 2}

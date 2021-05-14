@@ -8,7 +8,6 @@ public class npdDialogText : InteractionObjectScript
     
     public GameObject dialogBox;
     public Text dialogText;
-    public InteractButton interact;
     public string dialog;
 
 

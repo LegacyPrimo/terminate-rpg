@@ -7,7 +7,12 @@ public class InteractionObjectScript : MonoBehaviour
     public bool playerInRange;
     public SignalReader contextOn;
     public SignalReader contextOff;
+    public InteractButton interact;
 
+    void Start()
+    {
+        interact = FindObjectOfType<InteractButton>();
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
