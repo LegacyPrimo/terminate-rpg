@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="1">
+<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="25">
  <tileset firstgid="1" source="NinjaTilesetInteriorFloor.tsx"/>
  <tileset firstgid="441" source="PlayerHouse.tsx"/>
  <tileset firstgid="1441" source="NinjaTilesetElement.tsx"/>
@@ -61,4 +61,30 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
+ <objectgroup id="4" name="CollisionMask">
+  <object id="1" x="-0.5" y="-0.5" width="15.5" height="241.5"/>
+  <object id="2" x="-2" y="0" width="321.5" height="16"/>
+  <object id="3" x="16" y="64" width="110" height="15.5"/>
+  <object id="4" x="112" y="81.5" width="14.5" height="28.5"/>
+  <object id="5" x="15.5" y="79.5" width="48" height="47.5"/>
+  <object id="6" x="63.5" y="86" width="32.5" height="33"/>
+  <object id="7" x="16.5" y="133.5" width="23.5" height="43"/>
+  <object id="8" x="15" y="182" width="24.5" height="41.5"/>
+  <object id="9" x="16" y="224" width="111.5" height="15"/>
+  <object id="10" x="112" y="160" width="15" height="77.5"/>
+  <object id="11" x="207" y="143" width="48.5" height="16.5"/>
+  <object id="12" x="207.5" y="143" width="15.5" height="96"/>
+  <object id="13" x="191.5" y="223.5" width="127" height="16"/>
+  <object id="14" x="305" y="16.5" width="13.5" height="222.5"/>
+  <object id="15" x="222" y="174.5" width="34" height="47"/>
+  <object id="16" x="257" y="184" width="14.5" height="26"/>
+  <object id="17" x="239.5" y="48.5" width="16" height="30.5"/>
+  <object id="18" x="256.5" y="64" width="63.5" height="15.5"/>
+  <object id="19" x="274" y="44.5" width="29.5" height="18"/>
+  <object id="20" x="255" y="15.5" width="49" height="16"/>
+  <object id="21" x="16" y="17" width="31.6667" height="29.3333"/>
+  <object id="22" x="150" y="42" width="37" height="38"/>
+  <object id="23" x="129" y="48" width="14" height="22.6667"/>
+  <object id="24" x="191.667" y="47.6667" width="15" height="22.3333"/>
+ </objectgroup>
 </map>

@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class MutatedBone : EnemyScript
 {
-    public Transform enemyTarget;
-    public float moveRadius;
-    public float attackRadius;
+    
     public Transform initialPosition;
     public Animator animator;
     public Rigidbody2D rigidbody2D;

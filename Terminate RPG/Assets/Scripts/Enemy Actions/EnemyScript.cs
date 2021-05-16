@@ -12,6 +12,9 @@ public enum EnemyState
 
 public class EnemyScript : MonoBehaviour
 {
+    public Transform enemyTarget;
+    public float moveRadius;
+    public float attackRadius;
     public EnemyState currentState;
     public FloatValue maxHealth;
     public string enemyName;

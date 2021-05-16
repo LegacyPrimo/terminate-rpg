@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class SlimeEnemy : EnemyScript
 {
-    public Transform enemyTarget;
-    public float moveRadius;
-    public float attackRadius;
     public Transform initialPosition;
     private Animator animator;
     private Rigidbody2D rigidbody2D;
