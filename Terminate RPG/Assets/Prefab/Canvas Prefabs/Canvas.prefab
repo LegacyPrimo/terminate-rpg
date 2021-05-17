@@ -998,6 +998,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a982fcfa75191264f9fae614643332c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  powerUpSignal: {fileID: 0}
   playerInventory: {fileID: 11400000, guid: b3f565e73b1c7bf4c8aff2b80bc01965, type: 2}
   coinDisplay: {fileID: 163413860}
 --- !u!1 &1901860364
