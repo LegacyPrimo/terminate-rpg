@@ -7,6 +7,7 @@ public class TreasureChest : InteractionObjectScript
 {
     public ItemObjects content;
     public bool isOpen;
+    public BoolValue storedOpen;
     public Inventory playerInventory;
     public SignalReader raiseItem;
     public GameObject dialogBox;
@@ -19,6 +20,11 @@ public class TreasureChest : InteractionObjectScript
     {
         animator = GetComponent<Animator>();
         interact = FindObjectOfType<InteractButton>();
+        isOpen = storedOpen.runtimeValue;
+        if (isOpen) 
+        {
+            animator.SetBool("ChestOpened", true);
+        }
     }
 
     // Update is called once per frame
@@ -47,6 +53,7 @@ public class TreasureChest : InteractionObjectScript
         contextOff.Raise();
         isOpen = true;
         animator.SetBool("ChestOpened", true);
+        storedOpen.runtimeValue = isOpen;
     }
 
     public void ChestIsOpened() 

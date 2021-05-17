@@ -4842,6 +4842,10 @@ PrefabInstance:
       propertyPath: dialogText
       value: 
       objectReference: {fileID: 1940605436}
+    - target: {fileID: 2520513917100680705, guid: 152335051aaf0a54f9b855edd588a183, type: 3}
+      propertyPath: storedOpen
+      value: 
+      objectReference: {fileID: 11400000, guid: 239b8d0ebb926d2438e0f4f15acca8ad, type: 2}
     - target: {fileID: 2520513917100680709, guid: 152335051aaf0a54f9b855edd588a183, type: 3}
       propertyPath: m_Name
       value: Treasure Chest

@@ -172,10 +172,11 @@ MonoBehaviour:
   playerInRange: 0
   contextOn: {fileID: 11400000, guid: ab233792b2e991f4b86542f27654f79e, type: 2}
   contextOff: {fileID: 11400000, guid: 87aa1fef9c553694da223732ce33b2e4, type: 2}
+  interact: {fileID: 0}
   content: {fileID: 11400000, guid: 79fc2bd8816c540459f4cc8243e74160, type: 2}
   isOpen: 0
+  storedOpen: {fileID: 11400000, guid: 239b8d0ebb926d2438e0f4f15acca8ad, type: 2}
   playerInventory: {fileID: 11400000, guid: b3f565e73b1c7bf4c8aff2b80bc01965, type: 2}
   raiseItem: {fileID: 11400000, guid: e64e51c52372cee44aed5f19c14eff62, type: 2}
   dialogBox: {fileID: 0}
   dialogText: {fileID: 0}
-  interact: {fileID: 0}
