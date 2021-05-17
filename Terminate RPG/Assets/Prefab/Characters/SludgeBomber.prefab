@@ -76,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 99
   m_Sprite: {fileID: 3090421441385258324, guid: a732a646701ef5740a6b2dc3561740ed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -218,6 +218,7 @@ MonoBehaviour:
   enemySpeed: 2
   startingPosition: {x: -5, y: -7}
   deathEffect: {fileID: 4499521363549540912, guid: 8bf4c564ca1547049a79d60a9060030d, type: 3}
+  thisLoot: {fileID: 0}
   initialPosition: {fileID: 0}
   projectile: {fileID: 7559193487835352739, guid: 84cdae0443e6cf3469a4634e333d5acf, type: 3}
   rigidbody: {fileID: 5240776636373592950}
