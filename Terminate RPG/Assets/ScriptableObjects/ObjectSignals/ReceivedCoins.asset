@@ -9,8 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95be9e3e50c950e42be187931f69038e, type: 3}
-  m_Name: PlayerPosition
+  m_Script: {fileID: 11500000, guid: 3ca4e34f70dec68428aacd5d1d5c5491, type: 3}
+  m_Name: ReceivedCoins
   m_EditorClassIdentifier: 
-  initialValue: {x: 17, y: -24.3}
-  defaultValue: {x: 17, y: -24.3}
+  listeners: []
