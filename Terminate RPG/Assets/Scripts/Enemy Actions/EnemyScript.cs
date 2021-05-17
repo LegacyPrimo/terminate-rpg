@@ -23,6 +23,7 @@ public class EnemyScript : MonoBehaviour
     public float enemySpeed;
     public Vector2 startingPosition;
     public GameObject deathEffect;
+    public LootTable thisLoot;
 
 
     private void Awake() 
@@ -41,6 +42,7 @@ public class EnemyScript : MonoBehaviour
         if (enemyHealth <= 0) 
         {
             DeathEffect();
+            MakeLoot();
             this.gameObject.SetActive(false);
         }
     }
@@ -51,6 +53,17 @@ public class EnemyScript : MonoBehaviour
         {
             GameObject effect = Instantiate(deathEffect, transform.position, Quaternion.identity);
             Destroy(effect, 1f); 
+        }
+    }
+    private void MakeLoot() 
+    {
+        if (thisLoot != null) 
+        {
+            PowerUpObjects current = thisLoot.lootsPowerUp();
+            if (current != null) 
+            {
+                Instantiate(current.gameObject, transform.position, Quaternion.identity);
+            }
         }
     }
 
