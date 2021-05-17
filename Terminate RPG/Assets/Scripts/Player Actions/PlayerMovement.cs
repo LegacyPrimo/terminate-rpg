@@ -82,6 +82,8 @@ public class PlayerMovement : MonoBehaviour
         if (directionChange != Vector3.zero)
         {
             CharacterMovement();
+            directionChange.x = Mathf.Round(directionChange.x);
+            directionChange.y = Mathf.Round(directionChange.y);
             animator.SetFloat("moveX", directionChange.x);
             animator.SetFloat("moveY", directionChange.y);
             animator.SetBool("moving", true);
