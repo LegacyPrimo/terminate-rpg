@@ -56,7 +56,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 24339bb9e8a0ed14f8762ae175d1a967, type: 3}
-    totalSpriteSurfaceArea: 107746984
+    totalSpriteSurfaceArea: 107757581
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -345,6 +345,22 @@ SpriteAtlas:
   - {fileID: 21300000, guid: fc3ca5f00e28bb9449d9adff522890d9, type: 3}
   - {fileID: 21300000, guid: 68a41ff097730fb45a9b2adce184a79d, type: 3}
   - {fileID: 21300000, guid: 29d15101be5361c4890a4d510314dab6, type: 3}
+  - {fileID: 9114078935630010517, guid: 5e3473011ce7b6f46bb404e6e5826604, type: 3}
+  - {fileID: -8799995575176783795, guid: 5e3473011ce7b6f46bb404e6e5826604, type: 3}
+  - {fileID: -1469879329949605291, guid: 5e3473011ce7b6f46bb404e6e5826604, type: 3}
+  - {fileID: -7689516855428512398, guid: 5e3473011ce7b6f46bb404e6e5826604, type: 3}
+  - {fileID: -2413343258722215764, guid: 5e3473011ce7b6f46bb404e6e5826604, type: 3}
+  - {fileID: 4079024381068309220, guid: 5e3473011ce7b6f46bb404e6e5826604, type: 3}
+  - {fileID: 1892170638232913272, guid: 5e3473011ce7b6f46bb404e6e5826604, type: 3}
+  - {fileID: 3417586621162738884, guid: 5e3473011ce7b6f46bb404e6e5826604, type: 3}
+  - {fileID: 7210269430212126475, guid: 5e3473011ce7b6f46bb404e6e5826604, type: 3}
+  - {fileID: -4595737047348238561, guid: 5e3473011ce7b6f46bb404e6e5826604, type: 3}
+  - {fileID: 1660108805471425300, guid: 5e3473011ce7b6f46bb404e6e5826604, type: 3}
+  - {fileID: -137277378185822715, guid: 5e3473011ce7b6f46bb404e6e5826604, type: 3}
+  - {fileID: -336000531214846984, guid: 5e3473011ce7b6f46bb404e6e5826604, type: 3}
+  - {fileID: 1777361459721282548, guid: 5e3473011ce7b6f46bb404e6e5826604, type: 3}
+  - {fileID: 2670572250263382453, guid: 5e3473011ce7b6f46bb404e6e5826604, type: 3}
+  - {fileID: 5700767193190630657, guid: 5e3473011ce7b6f46bb404e6e5826604, type: 3}
   - {fileID: 21300000, guid: 84280501190028d49b4d168d9e6dec16, type: 3}
   - {fileID: 21300000, guid: f851760116aa60e409f5e71fc9fffbfb, type: 3}
   - {fileID: 21300000, guid: ac987901e198811419a10cd0dad046a3, type: 3}
@@ -475,6 +491,22 @@ SpriteAtlas:
   - {fileID: 21300000, guid: b65e20e1e1605e447b9414dc192934ff, type: 3}
   - {fileID: 21300000, guid: 886fb6e1fadb2684e9b2f0e488b089e7, type: 3}
   - {fileID: 21300000, guid: f905f6e1e84d1df4ba2ce7bcae88c5de, type: 3}
+  - {fileID: -1898101141213099369, guid: 2a381de1cdb59b74eb1d6548a6960d4c, type: 3}
+  - {fileID: 7927429830950459127, guid: 2a381de1cdb59b74eb1d6548a6960d4c, type: 3}
+  - {fileID: 1571176116747660993, guid: 2a381de1cdb59b74eb1d6548a6960d4c, type: 3}
+  - {fileID: -7336885778912179212, guid: 2a381de1cdb59b74eb1d6548a6960d4c, type: 3}
+  - {fileID: -2034084172188926700, guid: 2a381de1cdb59b74eb1d6548a6960d4c, type: 3}
+  - {fileID: -437835757249933894, guid: 2a381de1cdb59b74eb1d6548a6960d4c, type: 3}
+  - {fileID: -2955828394453855862, guid: 2a381de1cdb59b74eb1d6548a6960d4c, type: 3}
+  - {fileID: -4753886741560322309, guid: 2a381de1cdb59b74eb1d6548a6960d4c, type: 3}
+  - {fileID: -2338203481565794006, guid: 2a381de1cdb59b74eb1d6548a6960d4c, type: 3}
+  - {fileID: -2638942196184380687, guid: 2a381de1cdb59b74eb1d6548a6960d4c, type: 3}
+  - {fileID: 8930262238786865639, guid: 2a381de1cdb59b74eb1d6548a6960d4c, type: 3}
+  - {fileID: 2094350663154829313, guid: 2a381de1cdb59b74eb1d6548a6960d4c, type: 3}
+  - {fileID: -7839383391772302050, guid: 2a381de1cdb59b74eb1d6548a6960d4c, type: 3}
+  - {fileID: -7597207668663345718, guid: 2a381de1cdb59b74eb1d6548a6960d4c, type: 3}
+  - {fileID: 6119314509959758635, guid: 2a381de1cdb59b74eb1d6548a6960d4c, type: 3}
+  - {fileID: 8627847960000431974, guid: 2a381de1cdb59b74eb1d6548a6960d4c, type: 3}
   - {fileID: 21300000, guid: 07aaa1f1a47284c498a2b88a183d601a, type: 3}
   - {fileID: 21300012, guid: 87b209f140a1f3c408061c67de42043c, type: 3}
   - {fileID: 21300006, guid: 87b209f140a1f3c408061c67de42043c, type: 3}
@@ -2436,6 +2468,22 @@ SpriteAtlas:
   - GreenButton
   - Crate
   - LittleTreasureChest
+  - orge attack sprites_9
+  - orge attack sprites_8
+  - orge attack sprites_3
+  - orge attack sprites_2
+  - orge attack sprites_1
+  - orge attack sprites_0
+  - orge attack sprites_7
+  - orge attack sprites_6
+  - orge attack sprites_5
+  - orge attack sprites_4
+  - orge attack sprites_14
+  - orge attack sprites_15
+  - orge attack sprites_12
+  - orge attack sprites_13
+  - orge attack sprites_10
+  - orge attack sprites_11
   - _0004_Layer-5
   - ScrollIce
   - SpriteSheet
@@ -2566,6 +2614,22 @@ SpriteAtlas:
   - Jump
   - Sprite
   - Tileset_16x16_1
+  - orge_10
+  - orge_11
+  - orge_12
+  - orge_13
+  - orge_14
+  - orge_15
+  - orge_1
+  - orge_0
+  - orge_3
+  - orge_2
+  - orge_5
+  - orge_4
+  - orge_7
+  - orge_6
+  - orge_9
+  - orge_8
   - Attack
   - Platform_04
   - Platform_01
