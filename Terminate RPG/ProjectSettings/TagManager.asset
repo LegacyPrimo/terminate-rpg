@@ -18,8 +18,8 @@ TagManager:
   - Enemy
   - DialogueBox
   - EnemyProjectile
-  - 
-  - 
+  - PlayerProjectile
+  - Player
   - 
   - 
   - 

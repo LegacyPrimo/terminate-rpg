@@ -56,7 +56,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 24339bb9e8a0ed14f8762ae175d1a967, type: 3}
-    totalSpriteSurfaceArea: 107757581
+    totalSpriteSurfaceArea: 107757433
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -1597,7 +1597,14 @@ SpriteAtlas:
   - {fileID: 21300000, guid: f3a9a18acccccb545a2e2c331dcbef8b, type: 3}
   - {fileID: 21300000, guid: fdaa258a6f7768c4693245f0425ef439, type: 3}
   - {fileID: 21300000, guid: 09a6858a5088cd14282e5ccefb207c00, type: 3}
-  - {fileID: 21300000, guid: a372b58a7b9f48b4994338fc8d17c33b, type: 3}
+  - {fileID: -1681664030079631718, guid: a372b58a7b9f48b4994338fc8d17c33b, type: 3}
+  - {fileID: -4936275120101841149, guid: a372b58a7b9f48b4994338fc8d17c33b, type: 3}
+  - {fileID: -2524850754435110129, guid: a372b58a7b9f48b4994338fc8d17c33b, type: 3}
+  - {fileID: -6807090418655588140, guid: a372b58a7b9f48b4994338fc8d17c33b, type: 3}
+  - {fileID: 7790461844326769943, guid: a372b58a7b9f48b4994338fc8d17c33b, type: 3}
+  - {fileID: -5196978982222778092, guid: a372b58a7b9f48b4994338fc8d17c33b, type: 3}
+  - {fileID: -675345706640288995, guid: a372b58a7b9f48b4994338fc8d17c33b, type: 3}
+  - {fileID: -5544035182233510452, guid: a372b58a7b9f48b4994338fc8d17c33b, type: 3}
   - {fileID: 21300000, guid: 0d66678a4786e0841939f2d14d89f946, type: 3}
   - {fileID: 21300000, guid: d261778a162ca734da97c9457d5c192b, type: 3}
   - {fileID: 21300000, guid: d104aa8a1b24dfd4ab8d43f180ba442d, type: 3}
@@ -3720,7 +3727,14 @@ SpriteAtlas:
   - AllPreview2
   - _0001_Layer-2
   - Special1
-  - IceSpike
+  - IceSpike_3
+  - IceSpike_2
+  - IceSpike_1
+  - IceSpike_0
+  - IceSpike_7
+  - IceSpike_6
+  - IceSpike_5
+  - IceSpike_4
   - Attack
   - SpriteSheetB
   - Shrimp
