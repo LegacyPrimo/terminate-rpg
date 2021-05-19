@@ -56,7 +56,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 24339bb9e8a0ed14f8762ae175d1a967, type: 3}
-    totalSpriteSurfaceArea: 107757433
+    totalSpriteSurfaceArea: 107793253
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -989,6 +989,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: bfdff7c63cea37c449b610ced4adb202, type: 3}
   - {fileID: 21300000, guid: 98d1d8c6594f7f04b9193b56618b6bb1, type: 3}
   - {fileID: 21300000, guid: 34a389c647d4e234dbaebbfa50abd1ab, type: 3}
+  - {fileID: 21300000, guid: 32fdb9c675481f2459b0ab36556fe528, type: 3}
   - {fileID: 21300000, guid: 4b113cc68ad1caa40b32b3a969df3968, type: 3}
   - {fileID: 21300000, guid: 3faeacc6d179668438efc4e0ad150ba7, type: 3}
   - {fileID: 21300000, guid: 7865eec64b0c6d74b934553bdeec2b34, type: 3}
@@ -2072,6 +2073,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: f30c689e1cd8caa45a28c4947f382374, type: 3}
   - {fileID: 21300000, guid: 6e20f99e5097441409c50c44d1f3da05, type: 3}
   - {fileID: 21300000, guid: b5b21a9e7eab1fd4d9dd97e573b8c134, type: 3}
+  - {fileID: 21300000, guid: 909aaa9e7d4bd5e48a773f3ab49443f3, type: 3}
   - {fileID: 21300000, guid: 6b794b9e23b078b4ca032476a2b7daba, type: 3}
   - {fileID: 21300000, guid: 7cbfeb9eda2c3bf4fa210a0518ceb3da, type: 3}
   - {fileID: 21300000, guid: 30f33e9e573a5c044ba18027a94f07b4, type: 3}
@@ -2125,6 +2127,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: a06dc41f413c8fd448fa7c77b044f6eb, type: 3}
   - {fileID: 21300000, guid: 3757151fd001a864bb1f65f8f52f10e6, type: 3}
   - {fileID: 21300000, guid: 162c961f79f03a7419bae8455ff18508, type: 3}
+  - {fileID: 21300000, guid: 2d35d61fb0105274182fb010161bbb5a, type: 3}
   - {fileID: 21300000, guid: 62b40b1fb8853104987f5a078742c558, type: 3}
   - {fileID: 21300000, guid: 8465e22f398d8784ba4fbb4f5bbbf675, type: 3}
   - {fileID: 21300000, guid: 301be32f9b401b34a82889a102a536c0, type: 3}
@@ -3119,6 +3122,7 @@ SpriteAtlas:
   - Octopus2
   - _0004_Layer-5
   - Characters_MV
+  - magic bar
   - SpriteInHand
   - Jump
   - Truck
@@ -4202,6 +4206,7 @@ SpriteAtlas:
   - Crown
   - Axolot
   - Walk
+  - magic bottle
   - Tanuki2
   - generic-rpg-rock03
   - ship-04
@@ -4255,6 +4260,7 @@ SpriteAtlas:
   - ship-04
   - Aubergine_Done
   - Sugar
+  - ProjectileButton
   - Dead
   - _0003_4
   - Faceset
