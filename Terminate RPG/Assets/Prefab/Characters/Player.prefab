@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 89287495}
   - component: {fileID: 89287499}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TalkSignal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 705265184}
   - component: {fileID: 705265186}
   - component: {fileID: 705265185}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ReceivedItem
   m_TagString: Untagged
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
@@ -204,7 +204,7 @@ GameObject:
   - component: {fileID: 1106543279541914949}
   - component: {fileID: 1106543279541914948}
   - component: {fileID: 1101147798353272091}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: RightHitBox
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -285,7 +285,7 @@ GameObject:
   - component: {fileID: 1106543279548427989}
   - component: {fileID: 1106543279548427988}
   - component: {fileID: 7891949889242167687}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LeftHitBox
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -370,7 +370,7 @@ GameObject:
   - component: {fileID: 464890053}
   - component: {fileID: 464890054}
   - component: {fileID: 794636765}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -508,7 +508,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentstate: 0
-  speed: 5
+  speed: 6
   startingPosition: {fileID: 11400000, guid: 60f8e31107112a24180b6b48755310e8, type: 2}
   currentHealth: {fileID: 11400000, guid: f82478628e96f2a4aaaaf460b48fcf57, type: 2}
   playerHealthSignal: {fileID: 11400000, guid: 16fb2cdfc1dfc89468c5696df99689c9, type: 2}
@@ -517,7 +517,8 @@ MonoBehaviour:
   projectileButton: {fileID: 0}
   playerInventory: {fileID: 11400000, guid: b3f565e73b1c7bf4c8aff2b80bc01965, type: 2}
   receivedItem: {fileID: 705265186}
-  projectile: {fileID: 0}
+  projectile: {fileID: 3101737074469075560, guid: ea1bd03f5b8e20d45b32854471e164a1, type: 3}
+  decreaseBullet: {fileID: 11400000, guid: fe7d7aa957e812146987d49cd867a716, type: 2}
 --- !u!95 &1106543280328990905
 Animator:
   serializedVersion: 3
@@ -692,7 +693,7 @@ GameObject:
   - component: {fileID: 1106543280518974527}
   - component: {fileID: 1106543280518974526}
   - component: {fileID: 3094286991657138655}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: UpHitBox
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -773,7 +774,7 @@ GameObject:
   - component: {fileID: 1106543281123742574}
   - component: {fileID: 1106543281123742573}
   - component: {fileID: 4318395256219425122}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: DownHitBox
   m_TagString: Player
   m_Icon: {fileID: 0}

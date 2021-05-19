@@ -28,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
     public Inventory playerInventory;
     public SpriteRenderer receivedItem;
     public GameObject projectile;
+    public SignalReader decreaseBullet;
 
 
     // Start is called before the first frame update
@@ -131,9 +132,13 @@ public class PlayerMovement : MonoBehaviour
 
     private void MakeBullet() 
     {
-        Vector2 temporary = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
-        IceBullet iceBullet = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<IceBullet>();
-        iceBullet.Setup(temporary, ChooseBulletDirection());
+        if (playerInventory.currentBullet > 0)
+        {
+            Vector2 temporary = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
+            IceBullet iceBullet = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<IceBullet>();
+            iceBullet.Setup(temporary, ChooseBulletDirection());
+            decreaseBullet.Raise();
+        }
     }
 
     Vector3 ChooseBulletDirection() 

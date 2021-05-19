@@ -9,9 +9,11 @@ public class Inventory : ScriptableObject
     public List<ItemObjects> items = new List<ItemObjects>();
     public int totalKeys;
     public int totalCoins;
+    public float maxBullet = 10;
+    public float currentBullet;
 
     public void AddItem(ItemObjects itemToAdd) 
-    {
+    { 
         if (itemToAdd.isKey)
         {
             totalKeys++;
