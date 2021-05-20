@@ -29,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
     public SpriteRenderer receivedItem;
     public GameObject projectile;
     public SignalReader decreaseBullet;
+    public ItemObjects pistolGun;
 
 
     // Start is called before the first frame update
@@ -62,7 +63,11 @@ public class PlayerMovement : MonoBehaviour
         }
         else if(projectileButton.ButtonPressed && currentstate != PlayerState.attack && currentstate != PlayerState.stagger)
         {
-            StartCoroutine(ProjectileCo());
+            if (playerInventory.CheckForItem(pistolGun)) 
+            {
+                StartCoroutine(ProjectileCo());
+            }
+            
         }
         else if (currentstate == PlayerState.walk || currentstate == PlayerState.idle) 
         {
@@ -137,6 +142,7 @@ public class PlayerMovement : MonoBehaviour
             Vector2 temporary = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
             IceBullet iceBullet = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<IceBullet>();
             iceBullet.Setup(temporary, ChooseBulletDirection());
+            playerInventory.ReduceBullets(iceBullet.bulletCost);
             decreaseBullet.Raise();
         }
     }

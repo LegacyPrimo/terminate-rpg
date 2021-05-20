@@ -12,6 +12,26 @@ public class Inventory : ScriptableObject
     public float maxBullet = 10;
     public float currentBullet;
 
+    
+    public void OnEnable()
+    {
+        currentBullet = maxBullet;   
+    }
+
+    public void ReduceBullets(float bulletCost) 
+    {
+        currentBullet -= bulletCost;
+    }
+
+    public bool CheckForItem(ItemObjects itemObjects) 
+    {
+        if (items.Contains(itemObjects)) 
+        {
+            return true;
+        }
+        return false;
+    }
+
     public void AddItem(ItemObjects itemToAdd) 
     { 
         if (itemToAdd.isKey)

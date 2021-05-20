@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class IceRefillPowerup : PowerUpObjects
 {
+
+    public Inventory playerInventory;
+    public float bulletValue;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +17,7 @@ public class IceRefillPowerup : PowerUpObjects
     {
         if (collision.gameObject.CompareTag("Player")) 
         {
+            playerInventory.currentBullet += bulletValue;
             powerUpSignal.Raise();
             Destroy(this.gameObject);
         }

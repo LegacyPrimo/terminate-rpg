@@ -18,8 +18,7 @@ public class BulletManager : MonoBehaviour
 
     public void IncreaseBullet() 
     {
-        bulletSlider.value += 1;
-        playerInventory.currentBullet += 1;
+        bulletSlider.value = playerInventory.currentBullet;
         if (bulletSlider.value > bulletSlider.maxValue) 
         {
             bulletSlider.value = bulletSlider.maxValue;
@@ -29,8 +28,7 @@ public class BulletManager : MonoBehaviour
 
     public void DecreaseBullet() 
     {
-        bulletSlider.value -= 1;
-        playerInventory.currentBullet -= 1;
+        bulletSlider.value = playerInventory.currentBullet;
         if (bulletSlider.value < 0) 
         {
             bulletSlider.value = 0;

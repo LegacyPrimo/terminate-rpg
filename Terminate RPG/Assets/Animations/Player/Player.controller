@@ -80,6 +80,32 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!1102 &-5473445026380019319
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PistolHandleLeft
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: b65f85bd531f85447bf883aa28b9fc1e, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1101 &-2014517268172230946
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -499,17 +525,8 @@ AnimatorStateMachine:
     m_State: {fileID: 8976610897393891808}
     m_Position: {x: 300, y: 210, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -8015708449369102006}
+    m_State: {fileID: -5473445026380019319}
     m_Position: {x: 335, y: 275, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 6152210206814261294}
-    m_Position: {x: 370, y: 340, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -6684256264143562}
-    m_Position: {x: 405, y: 405, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 3659895452618407879}
-    m_Position: {x: 440, y: 470, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: -2014517268172230946}
