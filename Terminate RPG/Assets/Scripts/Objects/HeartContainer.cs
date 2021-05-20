@@ -1,0 +1,20 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class HeartContainer : PowerUpObjects
+{
+    public FloatValue heartContainers;
+    public FloatValue playerHealth;
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player")) 
+        {
+            heartContainers.runtimeValue += 1;
+            playerHealth.runtimeValue = heartContainers.runtimeValue * 2;
+            powerUpSignal.Raise();
+            Destroy(this.gameObject);
+        }
+    }
+}
