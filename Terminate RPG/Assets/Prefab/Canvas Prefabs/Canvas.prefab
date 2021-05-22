@@ -1004,7 +1004,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   button: {fileID: 0}
   pausePanel: {fileID: 0}
-  mainMenu: MenuScene
+  mainMenu: ContinueMenuScene
 --- !u!1 &976361241
 GameObject:
   m_ObjectHideFlags: 0

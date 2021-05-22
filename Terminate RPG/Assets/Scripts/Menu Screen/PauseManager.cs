@@ -10,6 +10,7 @@ public class PauseManager : MonoBehaviour
     public GameObject pausePanel;
     private bool isPaused;
     public string mainMenu;
+    private int currentSceneIndex;
 
     public void Paused() 
     {
@@ -33,6 +34,8 @@ public class PauseManager : MonoBehaviour
 
     public void QuitToMain() 
     {
+        currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        PlayerPrefs.SetInt("SavedScene", currentSceneIndex);
         SceneManager.LoadScene(mainMenu);
         Time.timeScale = 1f;
     }
