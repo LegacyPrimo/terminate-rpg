@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfe9214d98630e94580021d811866943, type: 3}
+  m_Name: GreenPotion
+  m_EditorClassIdentifier: 
+  itemName: Green Potion
+  itemDescription: Recovers Health from Damage
+  itemImage: {fileID: -4625282147638124589, guid: 118734b2a237f104c826d3aa662f5550, type: 3}
+  numberHeld: 1
+  usableItem: 1
+  uniqueItem: 0
+  thisEvent:
+    m_PersistentCalls:
+      m_Calls: []

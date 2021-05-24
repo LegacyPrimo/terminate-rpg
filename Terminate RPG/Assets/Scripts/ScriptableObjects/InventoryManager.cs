@@ -31,12 +31,15 @@ public class InventoryManager : MonoBehaviour
         {
             for (int i = 0; i < playerInventory.items.Count; i++) 
             {
-                GameObject temp = Instantiate(blankInventorySlot, inventoryPanel.transform.position, Quaternion.identity);
-                temp.transform.SetParent(inventoryPanel.transform);
-                InventorySlots newSlot = temp.GetComponent<InventorySlots>();
-                if (newSlot)
+                if (playerInventory.items[i].numberHeld > 0)
                 {
-                    newSlot.Setup(playerInventory.items[i], this);
+                    GameObject temp = Instantiate(blankInventorySlot, inventoryPanel.transform.position, Quaternion.identity);
+                    temp.transform.SetParent(inventoryPanel.transform);
+                    InventorySlots newSlot = temp.GetComponent<InventorySlots>();
+                    if (newSlot)
+                    {
+                        newSlot.Setup(playerInventory.items[i], this);
+                    }
                 }
             }
         }
@@ -44,8 +47,9 @@ public class InventoryManager : MonoBehaviour
 
 
     // Start is called before the first frame update
-    void Start()
+    void OnEnable()
     {
+        ClearInventorySlots();
         MakeInventorySlot();
         SetTextAndButton("", false);
 
@@ -56,6 +60,7 @@ public class InventoryManager : MonoBehaviour
     {
         
     }
+
     public void SetupDescriptionAndButton(string newDescriptionString, bool isButtonUsable, InventoryItem newItem) 
     {
         currentItem = newItem;
@@ -63,11 +68,25 @@ public class InventoryManager : MonoBehaviour
         useButton.SetActive(isButtonUsable);
     }
 
+    public void ClearInventorySlots() 
+    {
+        for (int i = 0; i < inventoryPanel.transform.childCount; i++) 
+        {
+            Destroy(inventoryPanel.transform.GetChild(i).gameObject);
+        }
+    }
+
     public void UseButtonPressed() 
     {
         if (currentItem) 
         {
             currentItem.Use();
+            ClearInventorySlots();
+            MakeInventorySlot();
+            if (currentItem.numberHeld == 0) 
+            {
+                SetTextAndButton("", false);
+            }
         }
     }
 }

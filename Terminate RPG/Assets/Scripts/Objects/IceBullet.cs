@@ -9,6 +9,7 @@ public class IceBullet : MonoBehaviour
     public float lifeTime;
     private float lifeTimeCounter;
     public float bulletCost;
+
     // Start is called before the first frame update
     void Start()
     {

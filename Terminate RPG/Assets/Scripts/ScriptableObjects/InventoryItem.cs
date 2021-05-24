@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.Events;
 
 [CreateAssetMenu(fileName = "New Item", menuName = "Inventory/Items")]
+[System.Serializable]
 public class InventoryItem : ScriptableObject
 {
     public string itemName;
@@ -17,7 +18,15 @@ public class InventoryItem : ScriptableObject
 
     public void Use() 
     {
-
         thisEvent.Invoke();
+    }
+
+    public void DecreaseAmount(int amountToDecrease) 
+    {
+        numberHeld-= amountToDecrease;
+        if (numberHeld < 0) 
+        {
+            numberHeld = 0;
+        }
     }
 }

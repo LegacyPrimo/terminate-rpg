@@ -8,13 +8,20 @@ public class PauseManager : MonoBehaviour
 {
     public Button button;
     public GameObject pausePanel;
+    public GameObject inventoryPanel;
     private bool isPaused;
     public string mainMenu;
     private int currentSceneIndex;
+    private bool isInventoryClicked;
 
     public void Paused() 
     {
         ChangePause();
+    }
+
+    public void InventoryPaused() 
+    {
+        InventoryButton();
     }
 
     public void ChangePause() 
@@ -38,5 +45,20 @@ public class PauseManager : MonoBehaviour
         PlayerPrefs.SetInt("SavedScene", currentSceneIndex);
         SceneManager.LoadScene(mainMenu);
         Time.timeScale = 1f;
+    }
+
+    public void InventoryButton() 
+    {
+        isInventoryClicked = !isInventoryClicked;
+        if (isInventoryClicked)
+        {
+            inventoryPanel.SetActive(true);
+            Time.timeScale = 0f;
+        }
+        else 
+        {
+            inventoryPanel.SetActive(false);
+            Time.timeScale = 1f;
+        }
     }
 }

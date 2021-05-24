@@ -56,7 +56,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 24339bb9e8a0ed14f8762ae175d1a967, type: 3}
-    totalSpriteSurfaceArea: 107793253
+    totalSpriteSurfaceArea: 107815753
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -1517,7 +1517,8 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 69a697a905415c44e954f79c70ac831c, type: 3}
   - {fileID: 21300000, guid: 096668a9e1bbbcf42a6e5773a5b591bc, type: 3}
   - {fileID: 21300000, guid: 402cc8a92eae34d46bcc1c911d30a7e7, type: 3}
-  - {fileID: 21300000, guid: 0e90eaa905971f0429551a63e4c7120e, type: 3}
+  - {fileID: 8213334933265063372, guid: 0e90eaa905971f0429551a63e4c7120e, type: 3}
+  - {fileID: 1760074686643827794, guid: 0e90eaa905971f0429551a63e4c7120e, type: 3}
   - {fileID: 21300000, guid: b0ce3fa9082eac04aa31ea7f7558d98c, type: 3}
   - {fileID: 21300000, guid: 4a5454b9131714d4d9b5ed0821d3ea63, type: 3}
   - {fileID: 21300000, guid: 204925b9b7bbed24fb5463170f5c2e50, type: 3}
@@ -2016,6 +2017,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 040a3fed52a942743bed899025d8d2ab, type: 3}
   - {fileID: 21300000, guid: f4c66fedc21c063429688fdaa8a62d6d, type: 3}
   - {fileID: 21300000, guid: 1054fcfdf46b10746968973756095fe5, type: 3}
+  - {fileID: 21300000, guid: 06618dfd09c1d714396e597418bb3120, type: 3}
   - {fileID: 21300000, guid: 1959adfdc5c338840858eec9307f0184, type: 3}
   - {fileID: 21300000, guid: 8decaffd6b511ba4b90bf1a818226bdd, type: 3}
   - {fileID: 21300000, guid: e3a4840e88330204480eed018ff50ae5, type: 3}
@@ -3650,7 +3652,8 @@ SpriteAtlas:
   - Tanuki
   - HollowTile
   - Item
-  - BigTreasureChest
+  - BigTreasureChest_0
+  - BigTreasureChest_1
   - Special1
   - Attack
   - Special2
@@ -4149,6 +4152,7 @@ SpriteAtlas:
   - stage-preview
   - Turret
   - enemy-02
+  - QuitButton
   - FishingRod
   - generic-rpg-tile06
   - Mollusc
