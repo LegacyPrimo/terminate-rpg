@@ -30,6 +30,7 @@ public class Inventory : ScriptableObject
         {
             return true;
         }
+        
         return false;
     }
 

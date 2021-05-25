@@ -1002,10 +1002,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37bca70e9eac8b6478931fa200d8289b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 0}
+  button: {fileID: 889815289}
   pausePanel: {fileID: 0}
   inventoryPanel: {fileID: 0}
-  mainMenu: ContinueMenuScene
+  mainMenu: MenuScene
 --- !u!1 &976361241
 GameObject:
   m_ObjectHideFlags: 0
