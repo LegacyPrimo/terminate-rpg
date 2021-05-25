@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 94f3f2eea9f3e8a44a82501546f4e6fa
+guid: 7b8eacbc4d9382b4caeeeb07df1c9826
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -10,7 +10,8 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
   missingFiles: []
   errors: []
-  warnings: []
+  warnings:
+  - Pixels Per Unit mismatch between map (100) and tileset 'DesertTileset.tsx' (16)
   missingSortingLayers: []
   missingLayers: []
   missingTags: []
