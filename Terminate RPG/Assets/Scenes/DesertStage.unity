@@ -357,6 +357,7 @@ GameObject:
   - component: {fileID: 87712411}
   - component: {fileID: 87712412}
   - component: {fileID: 87712413}
+  - component: {fileID: 87712414}
   m_Layer: 0
   m_Name: CM vcam1
   m_TagString: Untagged
@@ -431,6 +432,21 @@ MonoBehaviour:
   m_BoundingShape2D: {fileID: 1100812655}
   m_ConfineScreenEdges: 1
   m_Damping: 0
+--- !u!114 &87712414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87712410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00b2d199b96b516448144ab30fb26aed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ChannelMask: 1
+  m_Gain: 1
+  m_Use2DDistance: 1
 --- !u!1 &112777449
 GameObject:
   m_ObjectHideFlags: 0
@@ -624,6 +640,7 @@ GameObject:
   - component: {fileID: 146054118}
   - component: {fileID: 146054120}
   - component: {fileID: 146054119}
+  - component: {fileID: 146054121}
   m_Layer: 0
   m_Name: CM vcam7
   m_TagString: Untagged
@@ -698,6 +715,21 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 1521641112}
+--- !u!114 &146054121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146054117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00b2d199b96b516448144ab30fb26aed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ChannelMask: 1
+  m_Gain: 1
+  m_Use2DDistance: 1
 --- !u!1001 &175514404
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2336,6 +2368,7 @@ GameObject:
   - component: {fileID: 474353240}
   - component: {fileID: 474353242}
   - component: {fileID: 474353241}
+  - component: {fileID: 474353243}
   m_Layer: 0
   m_Name: CM vcam5
   m_TagString: Untagged
@@ -2410,6 +2443,21 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 282280149}
+--- !u!114 &474353243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474353239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00b2d199b96b516448144ab30fb26aed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ChannelMask: 1
+  m_Gain: 1
+  m_Use2DDistance: 1
 --- !u!1001 &480905267
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3178,6 +3226,7 @@ GameObject:
   - component: {fileID: 563519375}
   - component: {fileID: 563519377}
   - component: {fileID: 563519376}
+  - component: {fileID: 563519378}
   m_Layer: 0
   m_Name: CM vcam8
   m_TagString: Untagged
@@ -3252,6 +3301,21 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 1973081852}
+--- !u!114 &563519378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563519374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00b2d199b96b516448144ab30fb26aed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ChannelMask: 1
+  m_Gain: 1
+  m_Use2DDistance: 1
 --- !u!1001 &564809392
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4303,6 +4367,7 @@ GameObject:
   - component: {fileID: 849343963}
   - component: {fileID: 849343965}
   - component: {fileID: 849343964}
+  - component: {fileID: 849343966}
   m_Layer: 0
   m_Name: CM vcam4
   m_TagString: Untagged
@@ -4377,6 +4442,21 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 706314384}
+--- !u!114 &849343966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849343962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00b2d199b96b516448144ab30fb26aed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ChannelMask: 1
+  m_Gain: 1
+  m_Use2DDistance: 1
 --- !u!1001 &885332182
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6162,6 +6242,7 @@ GameObject:
   - component: {fileID: 1214356638}
   - component: {fileID: 1214356640}
   - component: {fileID: 1214356639}
+  - component: {fileID: 1214356641}
   m_Layer: 0
   m_Name: CM vcam9
   m_TagString: Untagged
@@ -6236,6 +6317,21 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 770139710}
+--- !u!114 &1214356641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214356637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00b2d199b96b516448144ab30fb26aed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ChannelMask: 1
+  m_Gain: 1
+  m_Use2DDistance: 1
 --- !u!1001 &1232452048
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8863,6 +8959,7 @@ GameObject:
   - component: {fileID: 1771137810}
   - component: {fileID: 1771137812}
   - component: {fileID: 1771137811}
+  - component: {fileID: 1771137813}
   m_Layer: 0
   m_Name: CM vcam3
   m_TagString: Untagged
@@ -8937,6 +9034,21 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 1351168579}
+--- !u!114 &1771137813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771137809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00b2d199b96b516448144ab30fb26aed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ChannelMask: 1
+  m_Gain: 1
+  m_Use2DDistance: 1
 --- !u!1001 &1784324412
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9335,6 +9447,7 @@ GameObject:
   - component: {fileID: 1926285967}
   - component: {fileID: 1926285969}
   - component: {fileID: 1926285968}
+  - component: {fileID: 1926285970}
   m_Layer: 0
   m_Name: CM vcam2
   m_TagString: Untagged
@@ -9409,6 +9522,21 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 250422779}
+--- !u!114 &1926285970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926285966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00b2d199b96b516448144ab30fb26aed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ChannelMask: 1
+  m_Gain: 1
+  m_Use2DDistance: 1
 --- !u!1 &1926381876
 GameObject:
   m_ObjectHideFlags: 0
@@ -9420,6 +9548,7 @@ GameObject:
   - component: {fileID: 1926381877}
   - component: {fileID: 1926381879}
   - component: {fileID: 1926381878}
+  - component: {fileID: 1926381880}
   m_Layer: 0
   m_Name: CM vcam6
   m_TagString: Untagged
@@ -9494,6 +9623,21 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 1103394170}
+--- !u!114 &1926381880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926381876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00b2d199b96b516448144ab30fb26aed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ChannelMask: 1
+  m_Gain: 1
+  m_Use2DDistance: 1
 --- !u!1001 &1946110627
 PrefabInstance:
   m_ObjectHideFlags: 0
