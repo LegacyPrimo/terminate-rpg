@@ -31,6 +31,7 @@ public class PlayerMovement : MonoBehaviour
     public GameObject projectile;
     public SignalReader decreaseBullet;
     public ItemObjects pistolGun;
+    
 
 
     // Start is called before the first frame update
@@ -64,9 +65,13 @@ public class PlayerMovement : MonoBehaviour
         }
         else if(projectileButton.ButtonPressed && currentstate != PlayerState.attack && currentstate != PlayerState.stagger)
         {
-            if (playerInventory.CheckForItem(pistolGun)) 
+            if (playerInventory.CheckForItem(pistolGun))
             {
                 StartCoroutine(ProjectileCo());
+            }
+            else 
+            {
+
             }
             
         }
