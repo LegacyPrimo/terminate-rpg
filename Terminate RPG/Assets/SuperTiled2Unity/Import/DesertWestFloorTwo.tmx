@@ -61,7 +61,7 @@
  </layer>
  <objectgroup id="3" name="CollisionMasks">
   <object id="1" x="-0.486204" y="-0.486204" width="15.5585" height="400.632"/>
-  <object id="2" x="1.45861" y="384.587" width="205.178" height="13.6137"/>
+  <object id="2" x="1.45861" y="384.587" width="224.14" height="13.6137"/>
   <object id="3" x="225.112" y="385.56" width="173.575" height="14.5861"/>
   <object id="4" x="384.101" y="336.939" width="14.5861" height="62.2341"/>
   <object id="5" x="1.45861" y="0.972408" width="205.178" height="14.5861"/>

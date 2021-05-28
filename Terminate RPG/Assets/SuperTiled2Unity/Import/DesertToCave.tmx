@@ -68,8 +68,8 @@
   <object id="4" x="207.512" y="0" width="143.362" height="16.7348"/>
   <object id="5" x="0.557828" y="-0.557828" width="190.777" height="15.6192"/>
   <object id="6" x="0.557828" y="15.6192" width="15.6192" height="176.274"/>
-  <object id="7" x="0.557828" y="207.512" width="14.5035" height="191.335"/>
-  <object id="8" x="16.177" y="385.459" width="176.274" height="13.9457"/>
+  <object id="7" x="0.557828" y="190.219" width="14.5035" height="208.628"/>
+  <object id="8" x="16.177" y="385.459" width="190.778" height="13.9457"/>
   <object id="9" x="208.07" y="383.785" width="143.92" height="16.7348"/>
   <object id="10" x="258.832" y="122.164" width="11.7144" height="22.3131"/>
  </objectgroup>
